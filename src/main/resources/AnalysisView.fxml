@@ -7,9 +7,9 @@
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
       prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="de.yupiel.frhetorix.AnalysisController">
-   <TextArea fx:id="inputTextArea" layoutX="75.0" layoutY="42.0" prefHeight="250.0" prefWidth="450.0"/>
-   <Button fx:id="analyzeButton" layoutX="150.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#analyzeInput"
-           prefHeight="38.0" prefWidth="78.0" text="Analyze"/>
-   <Button fx:id="cancelClearButton" layoutX="350.0" layoutY="325.0" mnemonicParsing="false" prefHeight="38.0"
-           prefWidth="78.0" text="Abort"/>
+    <TextArea fx:id="inputTextArea" layoutX="75.0" layoutY="42.0" prefHeight="250.0" prefWidth="450.0"/>
+    <Button fx:id="analyzeButton" layoutX="150.0" layoutY="325.0" mnemonicParsing="false"
+            onMouseClicked="#analyzeButtonHandler" prefHeight="38.0" prefWidth="78.0" text="Analyze"/>
+    <Button fx:id="cancelClearButton" layoutX="350.0" layoutY="325.0" mnemonicParsing="false"
+            onMouseClicked="#cancelClearButtonHandler" prefHeight="38.0" prefWidth="78.0" text="Abort"/>
 </Pane>
