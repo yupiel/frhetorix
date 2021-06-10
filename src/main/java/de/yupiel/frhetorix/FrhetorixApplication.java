@@ -1,12 +1,13 @@
 package de.yupiel.frhetorix;
 
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextArea;
-import javafx.scene.layout.StackPane;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+
+import java.io.File;
+import java.net.URL;
 
 public class FrhetorixApplication extends Application {
 
@@ -18,16 +19,10 @@ public class FrhetorixApplication extends Application {
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Frhetorix");
 
-        TextArea textArea = new TextArea();
-        Button firstButton = new Button("First Button");
-        Button secondButton = new Button("Second Button");
+        URL fxmlFilePath = new File("src/main/resources/AnalysisView.fxml").toURI().toURL();
+        Parent content = new FXMLLoader(fxmlFilePath).load();
 
-        VBox basicVbox = new VBox(textArea, firstButton, secondButton);
-        basicVbox.setSpacing(5);
-
-        Scene mainScene = new Scene(basicVbox, 1280, 720);
-
-        primaryStage.setScene(mainScene);
+        primaryStage.setScene(new Scene(content));
 
         primaryStage.show();
     }
