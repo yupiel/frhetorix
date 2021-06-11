@@ -1,27 +1,56 @@
 package de.yupiel.frhetorix;
 
-import java.util.Arrays;
-import java.util.concurrent.TimeUnit;
+import javafx.scene.text.Font;
+import javafx.scene.text.Text;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.function.Supplier;
 
-public class TagCloudTask implements Supplier<String[]> {
-    private String[] words;
+public class TagCloudTask implements Supplier<ArrayList<Text>> {
+    private final HashMap<String, Integer> words;
 
-    public TagCloudTask(String[] words) {
+    public TagCloudTask(HashMap<String, Integer> words) {
         this.words = words;
     }
 
     @Override
-    public String[] get() {
-        try {
-            TimeUnit.MINUTES.sleep(1);
-            return this.words;
-        } catch (InterruptedException e) {
-            System.out.println("Tag cloud generation interrupted");
-            System.out.println(Arrays.toString(e.getStackTrace()));
+    public ArrayList<Text> get() {
+        HashMap<String, Integer> wordsWithFrequency = this.words;
+        ArrayList<Text> tagCloudTextElements = new ArrayList<>();
 
-            return null;
+        if (wordsWithFrequency.entrySet().isEmpty())
+            return null;    //return empty tag cloud if nothing was passed
+
+        double minWeight = Double.POSITIVE_INFINITY;
+        double maxWeight = 0;
+
+        for (Map.Entry<String, Integer> pair : wordsWithFrequency.entrySet()) {
+            double w = (double) pair.getValue();
+            if (w > maxWeight)
+                maxWeight = w;
+            if (w < minWeight)
+                minWeight = w;
         }
+
+        for (Map.Entry<String, Integer> pair : wordsWithFrequency.entrySet()) {
+            Text text = new Text(pair.getKey() + " ");
+            text.setFont(setFontForWord(pair.getValue(), minWeight, maxWeight));
+
+            tagCloudTextElements.add(text);
+        }
+
+        return tagCloudTextElements;
+    }
+
+    private Font setFontForWord(int frequency, double minWeight, double maxWeight) {
+        double minSize = 10;
+        double maxSize = 32;
+
+        double size = (maxSize - minSize) * ((frequency - minWeight) / (maxWeight - minWeight)) + minSize;
+
+        return new Font(size);
     }
 }
 
