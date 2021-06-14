@@ -9,39 +9,50 @@ import java.util.Map;
 import java.util.function.Supplier;
 
 public class TagCloudTask implements Supplier<ArrayList<Text>> {
-    private final HashMap<String, Integer> words;
+    private HashMap<String, Integer> words = new HashMap<>();
 
-    public TagCloudTask(HashMap<String, Integer> words) {
-        this.words = words;
+    public TagCloudTask() {
+    }
+    public TagCloudTask(String[] words) {
+        this.words = getWordFrequency(words);
     }
 
     @Override
     public ArrayList<Text> get() {
-        HashMap<String, Integer> wordsWithFrequency = this.words;
-        ArrayList<Text> tagCloudTextElements = new ArrayList<>();
+        try {
+            HashMap<String, Integer> wordsWithFrequency = this.words;
+            ArrayList<Text> tagCloudTextElements = new ArrayList<>();
 
-        if (wordsWithFrequency.entrySet().isEmpty())
-            return null;    //return empty tag cloud if nothing was passed
+            if (wordsWithFrequency.entrySet().isEmpty())
+                throw new NullPointerException("Hashmap was empty");    //return empty tag cloud if nothing was passed
 
-        double minWeight = Double.POSITIVE_INFINITY;
-        double maxWeight = 0;
+            double minWeight = Double.POSITIVE_INFINITY;
+            double maxWeight = 0;
 
-        for (Map.Entry<String, Integer> pair : wordsWithFrequency.entrySet()) {
-            double w = (double) pair.getValue();
-            if (w > maxWeight)
-                maxWeight = w;
-            if (w < minWeight)
-                minWeight = w;
+            for (Map.Entry<String, Integer> pair : wordsWithFrequency.entrySet()) {
+                double w = (double) pair.getValue();
+                if (w > maxWeight)
+                    maxWeight = w;
+                if (w < minWeight)
+                    minWeight = w;
+            }
+
+            for (Map.Entry<String, Integer> pair : wordsWithFrequency.entrySet()) {
+                Text text = new Text(pair.getKey() + " ");
+                text.setFont(setFontForWord(pair.getValue(), minWeight, maxWeight));
+
+                tagCloudTextElements.add(text);
+            }
+
+            return tagCloudTextElements;
+        } catch (NullPointerException noWordsException){
+            noWordsException.printStackTrace();
+            return null;
         }
+    }
 
-        for (Map.Entry<String, Integer> pair : wordsWithFrequency.entrySet()) {
-            Text text = new Text(pair.getKey() + " ");
-            text.setFont(setFontForWord(pair.getValue(), minWeight, maxWeight));
-
-            tagCloudTextElements.add(text);
-        }
-
-        return tagCloudTextElements;
+    public void setWords(String[] words) {
+        this.words = getWordFrequency(words);
     }
 
     private Font setFontForWord(int frequency, double minWeight, double maxWeight) {
@@ -51,6 +62,16 @@ public class TagCloudTask implements Supplier<ArrayList<Text>> {
         double size = (maxSize - minSize) * ((frequency - minWeight) / (maxWeight - minWeight)) + minSize;
 
         return new Font(size);
+    }
+
+    private HashMap<String, Integer> getWordFrequency(String[] words) {
+        HashMap<String, Integer> countingMap = new HashMap<>();
+
+        for (String word : words) {
+            countingMap.compute(word, (k, v) -> v == null ? 1 : v + 1);
+        }
+
+        return countingMap;
     }
 }
 

@@ -9,7 +9,6 @@ import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.concurrent.CompletableFuture;
 
 public class AnalysisController {
@@ -32,7 +31,7 @@ public class AnalysisController {
         String[] wordsToTagCloud = inputTextArea.getText().replaceAll("[\\t\\n\\r]+", " ").replaceAll("\\p{Punct}", "").split(" ");
 
         //Asynchronously generating text cloud
-        tagCloudFuture = CompletableFuture.supplyAsync(new TagCloudTask(getWordFrequency(wordsToTagCloud)))
+        tagCloudFuture = CompletableFuture.supplyAsync(new TagCloudTask(wordsToTagCloud))
                 .whenComplete((result, throwable) -> {
                     if (throwable != null) {
                         System.out.println("Analyzing failed with Exception: ");
@@ -56,16 +55,6 @@ public class AnalysisController {
 
         inputTextArea.clear();
         tagCloudTextFlow.getChildren().clear();
-    }
-
-    private HashMap<String, Integer> getWordFrequency(String[] words) {
-        HashMap<String, Integer> countingMap = new HashMap<>();
-        for (String word : words) {
-            countingMap.compute(word, (k, v) -> v == null ? 1 : v + 1);
-        }
-
-        System.out.println(countingMap);
-        return countingMap;
     }
 
     private void addTextElementsToTagCloud(ArrayList<Text> words) {
