@@ -13,8 +13,8 @@ public class TagCloudTask implements Supplier<ArrayList<Text>> {
 
     public TagCloudTask() {
     }
-    public TagCloudTask(String[] words) {
-        this.words = getWordFrequency(words);
+    public TagCloudTask(HashMap<String, Integer> words) {
+        this.words = words;
     }
 
     @Override
@@ -51,8 +51,8 @@ public class TagCloudTask implements Supplier<ArrayList<Text>> {
         }
     }
 
-    public void setWords(String[] words) {
-        this.words = getWordFrequency(words);
+    public void setWords(HashMap<String, Integer> words) {
+        this.words = words;
     }
 
     private Font setFontForWord(int frequency, double minWeight, double maxWeight) {
@@ -64,14 +64,5 @@ public class TagCloudTask implements Supplier<ArrayList<Text>> {
         return new Font(size);
     }
 
-    private HashMap<String, Integer> getWordFrequency(String[] words) {
-        HashMap<String, Integer> countingMap = new HashMap<>();
-
-        for (String word : words) {
-            countingMap.compute(word, (k, v) -> v == null ? 1 : v + 1);
-        }
-
-        return countingMap;
-    }
 }
 

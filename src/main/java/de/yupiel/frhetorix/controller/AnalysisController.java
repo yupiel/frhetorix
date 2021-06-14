@@ -1,5 +1,8 @@
-package de.yupiel.frhetorix;
+package de.yupiel.frhetorix.controller;
 
+import com.google.gson.Gson;
+import de.yupiel.frhetorix.TagCloudTask;
+import de.yupiel.frhetorix.model.TagWord;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -8,11 +11,21 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
 public class AnalysisController {
     private CompletableFuture<ArrayList<Text>> tagCloudFuture;
+    private final Gson gson = new Gson();
+    private final Path saveStatePath = Paths.get(System.getProperty("user.home"), "Documents", "frhetorix");
 
     @FXML
     private TextFlow tagCloudTextFlow;
@@ -28,7 +41,9 @@ public class AnalysisController {
         buttonStateWorking(true);
 
         //Cleaning up words in the text area
-        String[] wordsToTagCloud = inputTextArea.getText().replaceAll("[\\t\\n\\r]+", " ").replaceAll("\\p{Punct}", "").split(" ");
+        String[] cleanedWordList = inputTextArea.getText().replaceAll("[\\t\\n\\r]+", " ").replaceAll("\\p{Punct}", "").split(" ");
+
+        HashMap<String, Integer> wordsToTagCloud = getWordFrequency(cleanedWordList);
 
         //Asynchronously generating text cloud
         tagCloudFuture = CompletableFuture.supplyAsync(new TagCloudTask(wordsToTagCloud))
@@ -40,6 +55,7 @@ public class AnalysisController {
                         System.out.println("Nothing to analyze");
                     } else {
                         addTextElementsToTagCloud(result);
+                        this.saveTagCloudResult(wordsToTagCloud);
                     }
                 });
     }
@@ -74,9 +90,40 @@ public class AnalysisController {
             analyzeButton.setText("Analyzing...");
             analyzeButton.setDisable(true);
         } else {
+            cancelClearButton.setText("Clear");
             analyzeButton.setText("Analyze");
             analyzeButton.setDisable(false);
-            cancelClearButton.setText("Clear");
+        }
+    }
+
+    public HashMap<String, Integer> getWordFrequency(String[] words) {
+        HashMap<String, Integer> countingMap = new HashMap<>();
+
+        for (String word : words) {
+            countingMap.compute(word, (k, v) -> v == null ? 1 : v + 1);
+        }
+
+        return countingMap;
+    }
+
+    private void saveTagCloudResult(HashMap<String, Integer> wordsWithFrequency) {
+        try {
+            ArrayList<TagWord> tagWords = new ArrayList<>();
+
+            for (Map.Entry<String, Integer> wordFrequencyPair : wordsWithFrequency.entrySet()) {
+                tagWords.add(new TagWord(wordFrequencyPair));
+            }
+
+            File saveFilePath = this.saveStatePath.toFile();
+            if (!saveFilePath.exists())
+                saveFilePath.mkdirs();
+
+            Writer writer = new FileWriter(this.saveStatePath.resolve("lastSessionResult.json").toString());
+            gson.toJson(tagWords, writer);
+            writer.close();
+        } catch (IOException fileWriterException) {
+            System.err.println("File could not be saved");
+            fileWriterException.printStackTrace();
         }
     }
 }
