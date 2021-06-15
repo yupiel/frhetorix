@@ -1,27 +1,30 @@
 package de.yupiel.frhetorix;
 
-import javafx.scene.text.Font;
-import javafx.scene.text.Text;
+import de.yupiel.frhetorix.model.TagWord;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Supplier;
 
-public class TagCloudTask implements Supplier<ArrayList<Text>> {
+public class TagCloudTask implements Supplier<ArrayList<TagWord>> {
     private HashMap<String, Integer> words = new HashMap<>();
 
     public TagCloudTask() {
     }
-    public TagCloudTask(HashMap<String, Integer> words) {
-        this.words = words;
+    public TagCloudTask(String[] words) {
+        this.words = getWordFrequency(words);
+    }
+
+    public void setWords(String[] words) {
+        this.words = getWordFrequency(words);
     }
 
     @Override
-    public ArrayList<Text> get() {
+    public ArrayList<TagWord> get() {
         try {
             HashMap<String, Integer> wordsWithFrequency = this.words;
-            ArrayList<Text> tagCloudTextElements = new ArrayList<>();
+            ArrayList<TagWord> tagCloudTextElements = new ArrayList<>();
 
             if (wordsWithFrequency.entrySet().isEmpty())
                 throw new NullPointerException("Hashmap was empty");    //return empty tag cloud if nothing was passed
@@ -38,10 +41,9 @@ public class TagCloudTask implements Supplier<ArrayList<Text>> {
             }
 
             for (Map.Entry<String, Integer> pair : wordsWithFrequency.entrySet()) {
-                Text text = new Text(pair.getKey() + " ");
-                text.setFont(setFontForWord(pair.getValue(), minWeight, maxWeight));
+                double calculatedFontSize = rescalingNormalization(pair.getValue(), minWeight, maxWeight);
 
-                tagCloudTextElements.add(text);
+                tagCloudTextElements.add(new TagWord(pair.getKey(), pair.getValue(), calculatedFontSize));
             }
 
             return tagCloudTextElements;
@@ -51,17 +53,21 @@ public class TagCloudTask implements Supplier<ArrayList<Text>> {
         }
     }
 
-    public void setWords(HashMap<String, Integer> words) {
-        this.words = words;
-    }
-
-    private Font setFontForWord(int frequency, double minWeight, double maxWeight) {
+    private double rescalingNormalization(int wordFrequency, double minWeight, double maxWeight) {
         double minSize = 10;
         double maxSize = 32;
 
-        double size = (maxSize - minSize) * ((frequency - minWeight) / (maxWeight - minWeight)) + minSize;
+        return (maxSize - minSize) * ((wordFrequency - minWeight) / (maxWeight - minWeight)) + minSize;
+    }
 
-        return new Font(size);
+    private HashMap<String, Integer> getWordFrequency(String[] words) {
+        HashMap<String, Integer> countingMap = new HashMap<>();
+
+        for (String word : words) {
+            countingMap.compute(word, (k, v) -> v == null ? 1 : v + 1);
+        }
+
+        return countingMap;
     }
 
 }
