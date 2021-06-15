@@ -59,7 +59,7 @@ public class AnalysisController {
 
         //Cleaning up words in the text area
         //  in the next step cleaning will be done outside of this method
-        String[] cleanedWordList = inputTextArea.getText().replaceAll("[\\t\\n\\r]+", " ").replaceAll("\\p{Punct}", "").split(" ");
+        String[] cleanedWordList = inputTextArea.getText().replaceAll("[\\t\\n\\r]+", " ").replaceAll("\\p{Punct}", "").toLowerCase().split(" ");
 
         //Asynchronously generating text cloud
         tagCloudFuture = CompletableFuture.supplyAsync(new TagCloudTask(cleanedWordList))

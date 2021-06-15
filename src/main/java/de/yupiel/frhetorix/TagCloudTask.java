@@ -53,14 +53,14 @@ public class TagCloudTask implements Supplier<ArrayList<TagWord>> {
         }
     }
 
-    private double rescalingNormalization(int wordFrequency, double minWeight, double maxWeight) {
+    public double rescalingNormalization(int wordFrequency, double minWeight, double maxWeight) {
         double minSize = 10;
         double maxSize = 32;
 
         return (maxSize - minSize) * ((wordFrequency - minWeight) / (maxWeight - minWeight)) + minSize;
     }
 
-    private HashMap<String, Integer> getWordFrequency(String[] words) {
+    public HashMap<String, Integer> getWordFrequency(String[] words) {
         HashMap<String, Integer> countingMap = new HashMap<>();
 
         for (String word : words) {
