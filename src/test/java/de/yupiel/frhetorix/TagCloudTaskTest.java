@@ -1,8 +1,11 @@
 package de.yupiel.frhetorix;
 
+import de.yupiel.frhetorix.model.TagWord;
 import org.junit.jupiter.api.Test;
 
-import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,23 +13,31 @@ class TagCloudTaskTest {
 
     private final TagCloudTask testTagCloudTask = new TagCloudTask();
 
+    private final String validTestData = "this .is. a test,.. \n .. . \ntest";
+    private final String invalidTestData = "..//::\n;:../";
+    private final String emptyTestData = "\n";
+
     @Test
-    public void get_takesStringArrayOfWords_and_shouldReturnATextElementForEachUniqueWord() {
-        String[] testData = new String[]{"this", "is", "a", "test", "test"};
+    public void get_takesStringOfWords_and_shouldReturnATextElementForEachUniqueWord() {
+        testTagCloudTask.setWords(validTestData);
 
-        testTagCloudTask.setWords(testData);
-
-        var actual = testTagCloudTask.get();
+        List<TagWord> actual = testTagCloudTask.get();
 
         assertEquals(4, actual.size());
     }
     @Test
-    public void get_takesEmptyStringArray_and_shouldPrintErrorAndReturnNull(){
-        String[] testData = new String[0];
+    public void get_takesStringWithoutWords_and_shouldPrintErrorAndReturnNull(){
+        testTagCloudTask.setWords(invalidTestData);
 
-        testTagCloudTask.setWords(testData);
+        List<TagWord> actual = testTagCloudTask.get();
 
-        var actual = testTagCloudTask.get();
+        assertNull(actual);
+    }
+    @Test
+    public void get_takesEmptyString_and_shouldPrintErrorAndReturnNull(){
+        testTagCloudTask.setWords(emptyTestData);
+
+        List<TagWord> actual = testTagCloudTask.get();
 
         assertNull(actual);
     }
@@ -72,21 +83,45 @@ class TagCloudTaskTest {
         assertTrue(Double.isNaN(actual));
     }
 
-
     @Test
-    public void getWordFrequency_takesStringArrayOfWords_and_shouldReturnCorrectAmountInFrequencyVariable() {
-        String[] testData = new String[]{"this", "is", "a", "test", "test"};
+    public void getWordFrequency_takesListOfWords_and_shouldReturnCorrectAmountInFrequencyVariable() {
+        List<String> validTestData = new ArrayList<>();
+        validTestData.add("test");
+        validTestData.add("test");
+        validTestData.add("moreTests");
+        validTestData.add("moreTests");
+        validTestData.add("moreTests");
 
-        HashMap<String, Integer> actual = testTagCloudTask.getWordFrequency(testData);
+        Map<String, Integer> actual = testTagCloudTask.getWordFrequency(validTestData);
 
         assertEquals(2, actual.get("test"));
+        assertEquals(3, actual.get("moreTests"));
     }
     @Test
-    public void getWordFrequency_takesEmptyStringArray_and_shouldReturnEmptyHashmap() {
-        String[] testData = new String[0];
+    public void getWordFrequency_takesEmptyList_and_shouldReturnEmptyMap() {
+        List<String> invalidTestData = new ArrayList<>();
 
-        HashMap<String, Integer> actual = testTagCloudTask.getWordFrequency(testData);
+        Map<String, Integer> actual = testTagCloudTask.getWordFrequency(invalidTestData);
 
         assertTrue(actual.isEmpty());
+    }
+
+    @Test
+    public void cleanupInput_takesStringOfWords_and_shouldReturnListOfWords() {
+        List<String> actual = testTagCloudTask.cleanupInput(validTestData);
+
+        assertEquals(5, actual.size());
+    }
+    @Test
+    public void cleanupInput_takesStringWithoutWords_and_shouldReturnEmptyList() {
+        List<String> actual = testTagCloudTask.cleanupInput(invalidTestData);
+
+        assertEquals(0, actual.size());
+    }
+    @Test
+    public void cleanupInput_takesEmptyString_and_shouldReturnEmptyList() {
+        List<String> actual = testTagCloudTask.cleanupInput(emptyTestData);
+
+        assertEquals(0, actual.size());
     }
 }

@@ -18,11 +18,11 @@ import java.io.*;
 import java.lang.reflect.Type;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class AnalysisController {
-    private CompletableFuture<ArrayList<TagWord>> tagCloudFuture;
+    private CompletableFuture<List<TagWord>> tagCloudFuture;
     private final Gson gson = new Gson();
     private final Path saveStatePath = Paths.get(System.getProperty("user.home"), "Documents", "frhetorix");
     private final String saveFileName = "lastSessionResult.json";
@@ -42,9 +42,12 @@ public class AnalysisController {
             File saveFile = this.saveStatePath.resolve(saveFileName).toFile();
             if (saveFile.isFile()) {
                 JsonReader reader = new JsonReader(new FileReader(saveFile));
-                Type readFileType = new TypeToken<ArrayList<TagWord>>() {
+                Type readFileType = new TypeToken<List<TagWord>>() {
                 }.getType();
-                ArrayList<TagWord> loadedTagWords = gson.fromJson(reader, readFileType);
+                List<TagWord> loadedTagWords = gson.fromJson(reader, readFileType);
+
+                if(loadedTagWords == null || loadedTagWords.size() == 0)
+                    return;
 
                 this.addTextElementsToTagCloud(loadedTagWords);
             }
@@ -57,12 +60,8 @@ public class AnalysisController {
     private void analyzeButtonHandler(MouseEvent event) {
         buttonStateWorking(true);
 
-        //Cleaning up words in the text area
-        //  in the next step cleaning will be done outside of this method
-        String[] cleanedWordList = inputTextArea.getText().replaceAll("[\\t\\n\\r]+", " ").replaceAll("\\p{Punct}", "").toLowerCase().split(" ");
-
         //Asynchronously generating text cloud
-        tagCloudFuture = CompletableFuture.supplyAsync(new TagCloudTask(cleanedWordList))
+        tagCloudFuture = CompletableFuture.supplyAsync(new TagCloudTask(inputTextArea.getText()))
                 .whenComplete((result, throwable) -> {
                     if (throwable != null) {
                         System.out.println("Analyzing failed with Exception: ");
@@ -89,7 +88,7 @@ public class AnalysisController {
         tagCloudTextFlow.getChildren().clear();
     }
 
-    private void addTextElementsToTagCloud(ArrayList<TagWord> words) {
+    private void addTextElementsToTagCloud(List<TagWord> words) {
         Platform.runLater(() -> {   //needed here because JavaFX won't update the Scene unless this happens on the main thread
             for (TagWord word : words) {
                 Text wordTextElement = new Text(word.word + " ");
@@ -115,7 +114,7 @@ public class AnalysisController {
         }
     }
 
-    private void saveTagCloudResult(ArrayList<TagWord> tagWords) {
+    private void saveTagCloudResult(List<TagWord> tagWords) {
         try {
             File saveFilePath = this.saveStatePath.toFile();
             if (!saveFilePath.exists())
