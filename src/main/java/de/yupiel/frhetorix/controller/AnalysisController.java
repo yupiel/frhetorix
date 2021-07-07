@@ -58,7 +58,8 @@ public class AnalysisController {
 
     @FXML
     private void analyzeButtonHandler(MouseEvent event) {
-        buttonStateWorking(true);
+        toggleButtonStateWorking(true);
+        tagCloudTextFlow.getChildren().clear();
 
         //Asynchronously generating text cloud
         tagCloudFuture = CompletableFuture.supplyAsync(new TagCloudTask(inputTextArea.getText()))
@@ -80,7 +81,7 @@ public class AnalysisController {
         if (tagCloudFuture != null && !tagCloudFuture.isDone()) {
             System.out.println("Canceling Tag Cloud Generation...");
             tagCloudFuture.cancel(true);
-            buttonStateWorking(false);
+            toggleButtonStateWorking(false);
             return;
         }
 
@@ -97,12 +98,12 @@ public class AnalysisController {
                 tagCloudTextFlow.getChildren().add(wordTextElement);
             }
 
-            buttonStateWorking(false);
+            toggleButtonStateWorking(false);
         });
     }
 
     //Button eye candy
-    private void buttonStateWorking(boolean working) {
+    private void toggleButtonStateWorking(boolean working) {
         if (working) {
             cancelClearButton.setText("Abort");
             analyzeButton.setText("Analyzing...");

@@ -1,0 +1,21 @@
+service: frhetorix
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  profile: frhetorix_app
+  lambdaHashingVersion: 20201221
+  region: eu-central-1
+
+functions:
+  scheduled-spotify-title-grabber:
+    handler: handler.grab
+    name: dev-scheduled-spotify-title-grabber
+    events:
+      - schedule: cron(20 6 * * ? *)  #GMT Time (-2 hours as of today)
+
+
+plugins:
+  - serverless-plugin-typescript
