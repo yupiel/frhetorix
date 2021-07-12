@@ -13,12 +13,14 @@
 		"@aws-sdk/client-secrets-manager": "^3.20.0",
 		"@aws-sdk/types": "^3.20.0",
 		"cld": "^2.7.0",
+		"dateformat": "^4.5.1",
 		"languagedetect": "^2.0.0",
 		"spotify-web-api-node": "^5.0.2",
 		"stopword": "^1.0.7"
 	},
 	"devDependencies": {
 		"@types/aws-lambda": "^8.10.77",
+		"@types/dateformat": "^3.0.1",
 		"@types/node": "^16.0.0",
 		"@types/spotify-web-api-node": "^5.0.3",
 		"@types/stopword": "^1.0.1",

@@ -8,6 +8,17 @@ provider:
   profile: frhetorix_app
   lambdaHashingVersion: 20201221
   region: eu-central-1
+  iam:
+    role:
+      statements:
+        - Effect: "Allow"
+          Action:
+            - "secretsmanager:GetSecretValue"
+            - "s3:PutObject"
+            - "s3:PutObjectAcl"
+          Resource: 
+            - "arn:aws:secretsmanager:eu-central-1:277817539157:secret:spotify_secrets-t94O8R"
+            - "arn:aws:s3:::frhetorix-raw-data/*"
 
 functions:
   scheduled-spotify-title-grabber:
@@ -15,7 +26,6 @@ functions:
     name: dev-scheduled-spotify-title-grabber
     events:
       - schedule: cron(20 6 * * ? *)  #GMT Time (-2 hours as of today)
-
 
 plugins:
   - serverless-plugin-typescript
