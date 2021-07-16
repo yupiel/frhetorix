@@ -1,0 +1,4114 @@
+{
+	"body": {
+		"tracks": {
+			"href": "https://api.spotify.com/v1/search?query=year%3A2020&type=track&market=DE&offset=0&limit=50",
+			"items": [
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+								},
+								"href": "https://api.spotify.com/v1/artists/6M2wZ9GZgrQXHCFfjv46we",
+								"id": "6M2wZ9GZgrQXHCFfjv46we",
+								"name": "Dua Lipa",
+								"type": "artist",
+								"uri": "spotify:artist:6M2wZ9GZgrQXHCFfjv46we"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/0nRVAnU410D5nOyVWCadJh"
+						},
+						"href": "https://api.spotify.com/v1/albums/0nRVAnU410D5nOyVWCadJh",
+						"id": "0nRVAnU410D5nOyVWCadJh",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2731f7c48d7efee22e04ce91917",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e021f7c48d7efee22e04ce91917",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048511f7c48d7efee22e04ce91917",
+								"width": 64
+							}
+						],
+						"name": "Future Nostalgia",
+						"release_date": "2020-03-27",
+						"release_date_precision": "day",
+						"total_tracks": 13,
+						"type": "album",
+						"uri": "spotify:album:0nRVAnU410D5nOyVWCadJh"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+							},
+							"href": "https://api.spotify.com/v1/artists/6M2wZ9GZgrQXHCFfjv46we",
+							"id": "6M2wZ9GZgrQXHCFfjv46we",
+							"name": "Dua Lipa",
+							"type": "artist",
+							"uri": "spotify:artist:6M2wZ9GZgrQXHCFfjv46we"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4r63FhuTkUYltbVAg5TQnk"
+							},
+							"href": "https://api.spotify.com/v1/artists/4r63FhuTkUYltbVAg5TQnk",
+							"id": "4r63FhuTkUYltbVAg5TQnk",
+							"name": "DaBaby",
+							"type": "artist",
+							"uri": "spotify:artist:4r63FhuTkUYltbVAg5TQnk"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 203064,
+					"explicit": false,
+					"external_ids": { "isrc": "GBfAHT2000942" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/49gruEYzuJZoy4R2q5xVlT"
+					},
+					"href": "https://api.spotify.com/v1/tracks/49gruEYzuJZoy4R2q5xVlT",
+					"id": "49gruEYzuJZoy4R2q5xVlT",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Levitating (feat. DaBaby)",
+					"popularity": 76,
+					"preview_url": null,
+					"track_number": 12,
+					"type": "track",
+					"uri": "spotify:track:49gruEYzuJZoy4R2q5xVlT"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/0VOR7Ie9xUSb45fzIIVJQ1"
+								},
+								"href": "https://api.spotify.com/v1/artists/0VOR7Ie9xUSb45fzIIVJQ1",
+								"id": "0VOR7Ie9xUSb45fzIIVJQ1",
+								"name": "Hammock",
+								"type": "artist",
+								"uri": "spotify:artist:0VOR7Ie9xUSb45fzIIVJQ1"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/502gFUuFXipGm1INetZNR5"
+						},
+						"href": "https://api.spotify.com/v1/albums/502gFUuFXipGm1INetZNR5",
+						"id": "502gFUuFXipGm1INetZNR5",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273b8e644c5c6d89d9c26050e2d",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02b8e644c5c6d89d9c26050e2d",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851b8e644c5c6d89d9c26050e2d",
+								"width": 64
+							}
+						],
+						"name": "Longest Year (2020)",
+						"release_date": "2020-12-04",
+						"release_date_precision": "day",
+						"total_tracks": 6,
+						"type": "album",
+						"uri": "spotify:album:502gFUuFXipGm1INetZNR5"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/0VOR7Ie9xUSb45fzIIVJQ1"
+							},
+							"href": "https://api.spotify.com/v1/artists/0VOR7Ie9xUSb45fzIIVJQ1",
+							"id": "0VOR7Ie9xUSb45fzIIVJQ1",
+							"name": "Hammock",
+							"type": "artist",
+							"uri": "spotify:artist:0VOR7Ie9xUSb45fzIIVJQ1"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 533707,
+					"explicit": false,
+					"external_ids": { "isrc": "US7QT2000006" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/51TAp7p7B3xboCl5HWmEkF"
+					},
+					"href": "https://api.spotify.com/v1/tracks/51TAp7p7B3xboCl5HWmEkF",
+					"id": "51TAp7p7B3xboCl5HWmEkF",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Longest Year - 2020",
+					"popularity": 27,
+					"preview_url": "https://p.scdn.co/mp3-preview/43f3b204944c4c536cd501bbd406320c15031104?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:51TAp7p7B3xboCl5HWmEkF"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/2o5jDhtHVPhrJdv3cEQ99Z"
+								},
+								"href": "https://api.spotify.com/v1/artists/2o5jDhtHVPhrJdv3cEQ99Z",
+								"id": "2o5jDhtHVPhrJdv3cEQ99Z",
+								"name": "Tiësto",
+								"type": "artist",
+								"uri": "spotify:artist:2o5jDhtHVPhrJdv3cEQ99Z"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/2adSO4KU3FDjeM1PXCRDZm"
+						},
+						"href": "https://api.spotify.com/v1/albums/2adSO4KU3FDjeM1PXCRDZm",
+						"id": "2adSO4KU3FDjeM1PXCRDZm",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273f461bbc21a9bcec43a926973",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02f461bbc21a9bcec43a926973",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851f461bbc21a9bcec43a926973",
+								"width": 64
+							}
+						],
+						"name": "The Business",
+						"release_date": "2020-09-16",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:2adSO4KU3FDjeM1PXCRDZm"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/2o5jDhtHVPhrJdv3cEQ99Z"
+							},
+							"href": "https://api.spotify.com/v1/artists/2o5jDhtHVPhrJdv3cEQ99Z",
+							"id": "2o5jDhtHVPhrJdv3cEQ99Z",
+							"name": "Tiësto",
+							"type": "artist",
+							"uri": "spotify:artist:2o5jDhtHVPhrJdv3cEQ99Z"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 164000,
+					"explicit": false,
+					"external_ids": { "isrc": "CYA112000624" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/6f3Slt0GbA2bPZlz0aIFXN"
+					},
+					"href": "https://api.spotify.com/v1/tracks/6f3Slt0GbA2bPZlz0aIFXN",
+					"id": "6f3Slt0GbA2bPZlz0aIFXN",
+					"is_local": false,
+					"is_playable": true,
+					"name": "The Business",
+					"popularity": 91,
+					"preview_url": "https://p.scdn.co/mp3-preview/676cb431611544326bb3e81c72d8dc5b27e0c9ad?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:6f3Slt0GbA2bPZlz0aIFXN"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+								},
+								"href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+								"id": "0LyfQWJT6nXafLPZqxe9Of",
+								"name": "Various Artists",
+								"type": "artist",
+								"uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/6IfzIe5i8TwhB9KR5PoyZr"
+						},
+						"href": "https://api.spotify.com/v1/albums/6IfzIe5i8TwhB9KR5PoyZr",
+						"id": "6IfzIe5i8TwhB9KR5PoyZr",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b27372b415f7fd90149013d01766",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e0272b415f7fd90149013d01766",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d0000485172b415f7fd90149013d01766",
+								"width": 64
+							}
+						],
+						"name": "1970s Singer/Songwriter Gold",
+						"release_date": "2021-07-09",
+						"release_date_precision": "day",
+						"total_tracks": 24,
+						"type": "album",
+						"uri": "spotify:album:6IfzIe5i8TwhB9KR5PoyZr"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/0DW7boyjvbaSP3OJ72sXgC"
+							},
+							"href": "https://api.spotify.com/v1/artists/0DW7boyjvbaSP3OJ72sXgC",
+							"id": "0DW7boyjvbaSP3OJ72sXgC",
+							"name": "Al Stewart",
+							"type": "artist",
+							"uri": "spotify:artist:0DW7boyjvbaSP3OJ72sXgC"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 403066,
+					"explicit": false,
+					"external_ids": { "isrc": "USRH12004058" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/0f6i8idyUmKjWC1xLBm85T"
+					},
+					"href": "https://api.spotify.com/v1/tracks/0f6i8idyUmKjWC1xLBm85T",
+					"id": "0f6i8idyUmKjWC1xLBm85T",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Year of the Cat - 2020 Remaster",
+					"popularity": 0,
+					"preview_url": "https://p.scdn.co/mp3-preview/9e32f29753703fc58cad1e98eb715471572c64de?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:0f6i8idyUmKjWC1xLBm85T"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/3Z3aTg9PwJ37e8xeO0aUC9"
+								},
+								"href": "https://api.spotify.com/v1/artists/3Z3aTg9PwJ37e8xeO0aUC9",
+								"id": "3Z3aTg9PwJ37e8xeO0aUC9",
+								"name": "01099",
+								"type": "artist",
+								"uri": "spotify:artist:3Z3aTg9PwJ37e8xeO0aUC9"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/2WmxTCUVOyGsqn4GA7VxuC"
+								},
+								"href": "https://api.spotify.com/v1/artists/2WmxTCUVOyGsqn4GA7VxuC",
+								"id": "2WmxTCUVOyGsqn4GA7VxuC",
+								"name": "Gustav",
+								"type": "artist",
+								"uri": "spotify:artist:2WmxTCUVOyGsqn4GA7VxuC"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/2x5JSpaE5kVsfazAU2y7SI"
+						},
+						"href": "https://api.spotify.com/v1/albums/2x5JSpaE5kVsfazAU2y7SI",
+						"id": "2x5JSpaE5kVsfazAU2y7SI",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2734751acc9acbe99097af6f357",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e024751acc9acbe99097af6f357",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048514751acc9acbe99097af6f357",
+								"width": 64
+							}
+						],
+						"name": "Frisch",
+						"release_date": "2020-12-10",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:2x5JSpaE5kVsfazAU2y7SI"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/3Z3aTg9PwJ37e8xeO0aUC9"
+							},
+							"href": "https://api.spotify.com/v1/artists/3Z3aTg9PwJ37e8xeO0aUC9",
+							"id": "3Z3aTg9PwJ37e8xeO0aUC9",
+							"name": "01099",
+							"type": "artist",
+							"uri": "spotify:artist:3Z3aTg9PwJ37e8xeO0aUC9"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/2WmxTCUVOyGsqn4GA7VxuC"
+							},
+							"href": "https://api.spotify.com/v1/artists/2WmxTCUVOyGsqn4GA7VxuC",
+							"id": "2WmxTCUVOyGsqn4GA7VxuC",
+							"name": "Gustav",
+							"type": "artist",
+							"uri": "spotify:artist:2WmxTCUVOyGsqn4GA7VxuC"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 158105,
+					"explicit": true,
+					"external_ids": { "isrc": "QZNWV2080262" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/7toCqux0Ln42OttYYyds4k"
+					},
+					"href": "https://api.spotify.com/v1/tracks/7toCqux0Ln42OttYYyds4k",
+					"id": "7toCqux0Ln42OttYYyds4k",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Frisch",
+					"popularity": 75,
+					"preview_url": "https://p.scdn.co/mp3-preview/872acd496de5e15e98cf1fbc7a52ef944e8c7ed4?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:7toCqux0Ln42OttYYyds4k"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/2ltIdiQyuATAmMXAKekoty"
+								},
+								"href": "https://api.spotify.com/v1/artists/2ltIdiQyuATAmMXAKekoty",
+								"id": "2ltIdiQyuATAmMXAKekoty",
+								"name": "Leonardo Makno",
+								"type": "artist",
+								"uri": "spotify:artist:2ltIdiQyuATAmMXAKekoty"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/239DG4uzMB4qgSKRZvmChZ"
+						},
+						"href": "https://api.spotify.com/v1/albums/239DG4uzMB4qgSKRZvmChZ",
+						"id": "239DG4uzMB4qgSKRZvmChZ",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b27346dd8fc56ac9c5dd47ea905b",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e0246dd8fc56ac9c5dd47ea905b",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d0000485146dd8fc56ac9c5dd47ea905b",
+								"width": 64
+							}
+						],
+						"name": "Year 2020",
+						"release_date": "2021-07-02",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:239DG4uzMB4qgSKRZvmChZ"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/2ltIdiQyuATAmMXAKekoty"
+							},
+							"href": "https://api.spotify.com/v1/artists/2ltIdiQyuATAmMXAKekoty",
+							"id": "2ltIdiQyuATAmMXAKekoty",
+							"name": "Leonardo Makno",
+							"type": "artist",
+							"uri": "spotify:artist:2ltIdiQyuATAmMXAKekoty"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 133281,
+					"explicit": false,
+					"external_ids": { "isrc": "QZK6P2170025" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/14ADh2uhUOF42B8J9NdWq1"
+					},
+					"href": "https://api.spotify.com/v1/tracks/14ADh2uhUOF42B8J9NdWq1",
+					"id": "14ADh2uhUOF42B8J9NdWq1",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Year 2020",
+					"popularity": 3,
+					"preview_url": "https://p.scdn.co/mp3-preview/f5e73ba947c3f133acf6f01498af4258a6210a88?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:14ADh2uhUOF42B8J9NdWq1"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/2lJ6K4PTrrweXhRiqh1CZE"
+								},
+								"href": "https://api.spotify.com/v1/artists/2lJ6K4PTrrweXhRiqh1CZE",
+								"id": "2lJ6K4PTrrweXhRiqh1CZE",
+								"name": "SUPER-Hi",
+								"type": "artist",
+								"uri": "spotify:artist:2lJ6K4PTrrweXhRiqh1CZE"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/1JPZHb1qziDJ05n0a1OvfW"
+								},
+								"href": "https://api.spotify.com/v1/artists/1JPZHb1qziDJ05n0a1OvfW",
+								"id": "1JPZHb1qziDJ05n0a1OvfW",
+								"name": "Neeka",
+								"type": "artist",
+								"uri": "spotify:artist:1JPZHb1qziDJ05n0a1OvfW"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/2ZcEETOWlcn0tLqHpnDTXZ"
+						},
+						"href": "https://api.spotify.com/v1/albums/2ZcEETOWlcn0tLqHpnDTXZ",
+						"id": "2ZcEETOWlcn0tLqHpnDTXZ",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737537523ae84b1629a27faa81",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027537523ae84b1629a27faa81",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517537523ae84b1629a27faa81",
+								"width": 64
+							}
+						],
+						"name": "Following The Sun",
+						"release_date": "2020-10-02",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:2ZcEETOWlcn0tLqHpnDTXZ"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/2lJ6K4PTrrweXhRiqh1CZE"
+							},
+							"href": "https://api.spotify.com/v1/artists/2lJ6K4PTrrweXhRiqh1CZE",
+							"id": "2lJ6K4PTrrweXhRiqh1CZE",
+							"name": "SUPER-Hi",
+							"type": "artist",
+							"uri": "spotify:artist:2lJ6K4PTrrweXhRiqh1CZE"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/1JPZHb1qziDJ05n0a1OvfW"
+							},
+							"href": "https://api.spotify.com/v1/artists/1JPZHb1qziDJ05n0a1OvfW",
+							"id": "1JPZHb1qziDJ05n0a1OvfW",
+							"name": "Neeka",
+							"type": "artist",
+							"uri": "spotify:artist:1JPZHb1qziDJ05n0a1OvfW"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 206226,
+					"explicit": false,
+					"external_ids": { "isrc": "SE5BU2081473" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/2JzXBqTIVHYX43t7EcLyMs"
+					},
+					"href": "https://api.spotify.com/v1/tracks/2JzXBqTIVHYX43t7EcLyMs",
+					"id": "2JzXBqTIVHYX43t7EcLyMs",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Following The Sun",
+					"popularity": 76,
+					"preview_url": "https://p.scdn.co/mp3-preview/eb07e64c476cc680bdb51db6897172544cd991e8?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:2JzXBqTIVHYX43t7EcLyMs"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
+								},
+								"href": "https://api.spotify.com/v1/artists/5INjqkS1o8h1imAzPqGZBb",
+								"id": "5INjqkS1o8h1imAzPqGZBb",
+								"name": "Tame Impala",
+								"type": "artist",
+								"uri": "spotify:artist:5INjqkS1o8h1imAzPqGZBb"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/65BL1WmHblGCNmhzfgYEyD"
+						},
+						"href": "https://api.spotify.com/v1/albums/65BL1WmHblGCNmhzfgYEyD",
+						"id": "65BL1WmHblGCNmhzfgYEyD",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273703add8a8bef1eb6a0fad4f7",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02703add8a8bef1eb6a0fad4f7",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851703add8a8bef1eb6a0fad4f7",
+								"width": 64
+							}
+						],
+						"name": "InnerSpeaker (10 Year Anniversary Edition)",
+						"release_date": "2021-04-30",
+						"release_date_precision": "day",
+						"total_tracks": 13,
+						"type": "album",
+						"uri": "spotify:album:65BL1WmHblGCNmhzfgYEyD"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
+							},
+							"href": "https://api.spotify.com/v1/artists/5INjqkS1o8h1imAzPqGZBb",
+							"id": "5INjqkS1o8h1imAzPqGZBb",
+							"name": "Tame Impala",
+							"type": "artist",
+							"uri": "spotify:artist:5INjqkS1o8h1imAzPqGZBb"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 289866,
+					"explicit": false,
+					"external_ids": { "isrc": "AUUM72000821" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/457sndKohlwTU6dW6amBMU"
+					},
+					"href": "https://api.spotify.com/v1/tracks/457sndKohlwTU6dW6amBMU",
+					"id": "457sndKohlwTU6dW6amBMU",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Alter Ego - 2020 Mix",
+					"popularity": 52,
+					"preview_url": null,
+					"track_number": 12,
+					"type": "track",
+					"uri": "spotify:track:457sndKohlwTU6dW6amBMU"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/6DgP9otnZw5z6daOntINxp"
+								},
+								"href": "https://api.spotify.com/v1/artists/6DgP9otnZw5z6daOntINxp",
+								"id": "6DgP9otnZw5z6daOntINxp",
+								"name": "Joel Corry",
+								"type": "artist",
+								"uri": "spotify:artist:6DgP9otnZw5z6daOntINxp"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/7uMh23xWiuR7zsNkuNcm2G"
+								},
+								"href": "https://api.spotify.com/v1/artists/7uMh23xWiuR7zsNkuNcm2G",
+								"id": "7uMh23xWiuR7zsNkuNcm2G",
+								"name": "MNEK",
+								"type": "artist",
+								"uri": "spotify:artist:7uMh23xWiuR7zsNkuNcm2G"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5glfCPECXSHzidU6exW8wO"
+						},
+						"href": "https://api.spotify.com/v1/albums/5glfCPECXSHzidU6exW8wO",
+						"id": "5glfCPECXSHzidU6exW8wO",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b27391e93c59bacfe819db9601eb",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e0291e93c59bacfe819db9601eb",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d0000485191e93c59bacfe819db9601eb",
+								"width": 64
+							}
+						],
+						"name": "Head & Heart (feat. MNEK)",
+						"release_date": "2020-07-03",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:5glfCPECXSHzidU6exW8wO"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/6DgP9otnZw5z6daOntINxp"
+							},
+							"href": "https://api.spotify.com/v1/artists/6DgP9otnZw5z6daOntINxp",
+							"id": "6DgP9otnZw5z6daOntINxp",
+							"name": "Joel Corry",
+							"type": "artist",
+							"uri": "spotify:artist:6DgP9otnZw5z6daOntINxp"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/7uMh23xWiuR7zsNkuNcm2G"
+							},
+							"href": "https://api.spotify.com/v1/artists/7uMh23xWiuR7zsNkuNcm2G",
+							"id": "7uMh23xWiuR7zsNkuNcm2G",
+							"name": "MNEK",
+							"type": "artist",
+							"uri": "spotify:artist:7uMh23xWiuR7zsNkuNcm2G"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 166028,
+					"explicit": false,
+					"external_ids": { "isrc": "UK4ZF2000305" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/6cx06DFPPHchuUAcTxznu9"
+					},
+					"href": "https://api.spotify.com/v1/tracks/6cx06DFPPHchuUAcTxznu9",
+					"id": "6cx06DFPPHchuUAcTxznu9",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Head & Heart (feat. MNEK)",
+					"popularity": 88,
+					"preview_url": "https://p.scdn.co/mp3-preview/a860b3fe04f480539af5f08b3672bb2ecff71b6b?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:6cx06DFPPHchuUAcTxznu9"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/6JMGrupbzJZ3yuQhTGyeHr"
+								},
+								"href": "https://api.spotify.com/v1/artists/6JMGrupbzJZ3yuQhTGyeHr",
+								"id": "6JMGrupbzJZ3yuQhTGyeHr",
+								"name": "Year 200X",
+								"type": "artist",
+								"uri": "spotify:artist:6JMGrupbzJZ3yuQhTGyeHr"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/6nUwQK1xQulhHslB6A8qjQ"
+						},
+						"href": "https://api.spotify.com/v1/albums/6nUwQK1xQulhHslB6A8qjQ",
+						"id": "6nUwQK1xQulhHslB6A8qjQ",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2736657927418fe0aee0ea4d05c",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e026657927418fe0aee0ea4d05c",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048516657927418fe0aee0ea4d05c",
+								"width": 64
+							}
+						],
+						"name": "We Are Error",
+						"release_date": "2013-11-28",
+						"release_date_precision": "day",
+						"total_tracks": 13,
+						"type": "album",
+						"uri": "spotify:album:6nUwQK1xQulhHslB6A8qjQ"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/6JMGrupbzJZ3yuQhTGyeHr"
+							},
+							"href": "https://api.spotify.com/v1/artists/6JMGrupbzJZ3yuQhTGyeHr",
+							"id": "6JMGrupbzJZ3yuQhTGyeHr",
+							"name": "Year 200X",
+							"type": "artist",
+							"uri": "spotify:artist:6JMGrupbzJZ3yuQhTGyeHr"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 131253,
+					"explicit": false,
+					"external_ids": { "isrc": "USE830910942" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/0r5y3Ia2Wu3UkenDH2Ulhk"
+					},
+					"href": "https://api.spotify.com/v1/tracks/0r5y3Ia2Wu3UkenDH2Ulhk",
+					"id": "0r5y3Ia2Wu3UkenDH2Ulhk",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Ducktales (the Moon)",
+					"popularity": 20,
+					"preview_url": "https://p.scdn.co/mp3-preview/da4bd5e4f9d06ab53ba9359220cd74cb81236a9c?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 2,
+					"type": "track",
+					"uri": "spotify:track:0r5y3Ia2Wu3UkenDH2Ulhk"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+								},
+								"href": "https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ",
+								"id": "1Xyo4u8uXC1ZmMpatF05PJ",
+								"name": "The Weeknd",
+								"type": "artist",
+								"uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/4yP0hdKOZPNshxUOjY0cZj"
+						},
+						"href": "https://api.spotify.com/v1/albums/4yP0hdKOZPNshxUOjY0cZj",
+						"id": "4yP0hdKOZPNshxUOjY0cZj",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048518863bc11d2aa12b54f5aeb36",
+								"width": 64
+							}
+						],
+						"name": "After Hours",
+						"release_date": "2020-03-20",
+						"release_date_precision": "day",
+						"total_tracks": 14,
+						"type": "album",
+						"uri": "spotify:album:4yP0hdKOZPNshxUOjY0cZj"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+							},
+							"href": "https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ",
+							"id": "1Xyo4u8uXC1ZmMpatF05PJ",
+							"name": "The Weeknd",
+							"type": "artist",
+							"uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 200040,
+					"explicit": false,
+					"external_ids": { "isrc": "USUG11904206" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b"
+					},
+					"href": "https://api.spotify.com/v1/tracks/0VjIjW4GlUZAMYd2vXMi3b",
+					"id": "0VjIjW4GlUZAMYd2vXMi3b",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Blinding Lights",
+					"popularity": 93,
+					"preview_url": null,
+					"track_number": 9,
+					"type": "track",
+					"uri": "spotify:track:0VjIjW4GlUZAMYd2vXMi3b"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/5cPNMq5lKAoAKyv5kdpz9s"
+								},
+								"href": "https://api.spotify.com/v1/artists/5cPNMq5lKAoAKyv5kdpz9s",
+								"id": "5cPNMq5lKAoAKyv5kdpz9s",
+								"name": "Frequencerz",
+								"type": "artist",
+								"uri": "spotify:artist:5cPNMq5lKAoAKyv5kdpz9s"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/46BZrdxGfqAxer12BK6dDC"
+						},
+						"href": "https://api.spotify.com/v1/albums/46BZrdxGfqAxer12BK6dDC",
+						"id": "46BZrdxGfqAxer12BK6dDC",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2733ded8c471d8c32a9d98e0418",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e023ded8c471d8c32a9d98e0418",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048513ded8c471d8c32a9d98e0418",
+								"width": 64
+							}
+						],
+						"name": "10 Years of Hardstyle by Frequencerz",
+						"release_date": "2021-06-04",
+						"release_date_precision": "day",
+						"total_tracks": 127,
+						"type": "album",
+						"uri": "spotify:album:46BZrdxGfqAxer12BK6dDC"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/5cPNMq5lKAoAKyv5kdpz9s"
+							},
+							"href": "https://api.spotify.com/v1/artists/5cPNMq5lKAoAKyv5kdpz9s",
+							"id": "5cPNMq5lKAoAKyv5kdpz9s",
+							"name": "Frequencerz",
+							"type": "artist",
+							"uri": "spotify:artist:5cPNMq5lKAoAKyv5kdpz9s"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/2lmihUu4FzVOepdJpDDrof"
+							},
+							"href": "https://api.spotify.com/v1/artists/2lmihUu4FzVOepdJpDDrof",
+							"id": "2lmihUu4FzVOepdJpDDrof",
+							"name": "Rejecta",
+							"type": "artist",
+							"uri": "spotify:artist:2lmihUu4FzVOepdJpDDrof"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 291749,
+					"explicit": false,
+					"external_ids": { "isrc": "NLH2L2000152" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/5wEFFkxdXINZEwoEgkhZ0k"
+					},
+					"href": "https://api.spotify.com/v1/tracks/5wEFFkxdXINZEwoEgkhZ0k",
+					"id": "5wEFFkxdXINZEwoEgkhZ0k",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Stay Loud - Official Decibel outdoor 2020 Tribute",
+					"popularity": 34,
+					"preview_url": "https://p.scdn.co/mp3-preview/6891672fd2670629bdd0347fb078324c27c9533c?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 122,
+					"type": "track",
+					"uri": "spotify:track:5wEFFkxdXINZEwoEgkhZ0k"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4AKwRarlmsUlLjIwt38NLw"
+								},
+								"href": "https://api.spotify.com/v1/artists/4AKwRarlmsUlLjIwt38NLw",
+								"id": "4AKwRarlmsUlLjIwt38NLw",
+								"name": "Ofenbach",
+								"type": "artist",
+								"uri": "spotify:artist:4AKwRarlmsUlLjIwt38NLw"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/2h6hAChW74hB9HvrNoK1RY"
+								},
+								"href": "https://api.spotify.com/v1/artists/2h6hAChW74hB9HvrNoK1RY",
+								"id": "2h6hAChW74hB9HvrNoK1RY",
+								"name": "Quarterhead",
+								"type": "artist",
+								"uri": "spotify:artist:2h6hAChW74hB9HvrNoK1RY"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/2fsk4VlJdNF6G8cCMDrrzB"
+								},
+								"href": "https://api.spotify.com/v1/artists/2fsk4VlJdNF6G8cCMDrrzB",
+								"id": "2fsk4VlJdNF6G8cCMDrrzB",
+								"name": "Norma Jean Martine",
+								"type": "artist",
+								"uri": "spotify:artist:2fsk4VlJdNF6G8cCMDrrzB"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/1MZ3ZQqAV3wFjHjaOe6KFz"
+						},
+						"href": "https://api.spotify.com/v1/albums/1MZ3ZQqAV3wFjHjaOe6KFz",
+						"id": "1MZ3ZQqAV3wFjHjaOe6KFz",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2736e264f61d46ee0aa92ea3ffe",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e026e264f61d46ee0aa92ea3ffe",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048516e264f61d46ee0aa92ea3ffe",
+								"width": 64
+							}
+						],
+						"name": "Head Shoulders Knees & Toes (feat. Norma Jean Martine)",
+						"release_date": "2020-05-08",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:1MZ3ZQqAV3wFjHjaOe6KFz"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4AKwRarlmsUlLjIwt38NLw"
+							},
+							"href": "https://api.spotify.com/v1/artists/4AKwRarlmsUlLjIwt38NLw",
+							"id": "4AKwRarlmsUlLjIwt38NLw",
+							"name": "Ofenbach",
+							"type": "artist",
+							"uri": "spotify:artist:4AKwRarlmsUlLjIwt38NLw"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/2h6hAChW74hB9HvrNoK1RY"
+							},
+							"href": "https://api.spotify.com/v1/artists/2h6hAChW74hB9HvrNoK1RY",
+							"id": "2h6hAChW74hB9HvrNoK1RY",
+							"name": "Quarterhead",
+							"type": "artist",
+							"uri": "spotify:artist:2h6hAChW74hB9HvrNoK1RY"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/2fsk4VlJdNF6G8cCMDrrzB"
+							},
+							"href": "https://api.spotify.com/v1/artists/2fsk4VlJdNF6G8cCMDrrzB",
+							"id": "2fsk4VlJdNF6G8cCMDrrzB",
+							"name": "Norma Jean Martine",
+							"type": "artist",
+							"uri": "spotify:artist:2fsk4VlJdNF6G8cCMDrrzB"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 156960,
+					"explicit": false,
+					"external_ids": { "isrc": "FRY682000003" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/6i7zAdNhzUN2k1HcrBxPHG"
+					},
+					"href": "https://api.spotify.com/v1/tracks/6i7zAdNhzUN2k1HcrBxPHG",
+					"id": "6i7zAdNhzUN2k1HcrBxPHG",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Head Shoulders Knees & Toes (feat. Norma Jean Martine)",
+					"popularity": 80,
+					"preview_url": "https://p.scdn.co/mp3-preview/e1f35c7eb171a5d6e4418bef1b393e4c52178521?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:6i7zAdNhzUN2k1HcrBxPHG"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/6JMGrupbzJZ3yuQhTGyeHr"
+								},
+								"href": "https://api.spotify.com/v1/artists/6JMGrupbzJZ3yuQhTGyeHr",
+								"id": "6JMGrupbzJZ3yuQhTGyeHr",
+								"name": "Year 200X",
+								"type": "artist",
+								"uri": "spotify:artist:6JMGrupbzJZ3yuQhTGyeHr"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/6nUwQK1xQulhHslB6A8qjQ"
+						},
+						"href": "https://api.spotify.com/v1/albums/6nUwQK1xQulhHslB6A8qjQ",
+						"id": "6nUwQK1xQulhHslB6A8qjQ",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2736657927418fe0aee0ea4d05c",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e026657927418fe0aee0ea4d05c",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048516657927418fe0aee0ea4d05c",
+								"width": 64
+							}
+						],
+						"name": "We Are Error",
+						"release_date": "2013-11-28",
+						"release_date_precision": "day",
+						"total_tracks": 13,
+						"type": "album",
+						"uri": "spotify:album:6nUwQK1xQulhHslB6A8qjQ"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/6JMGrupbzJZ3yuQhTGyeHr"
+							},
+							"href": "https://api.spotify.com/v1/artists/6JMGrupbzJZ3yuQhTGyeHr",
+							"id": "6JMGrupbzJZ3yuQhTGyeHr",
+							"name": "Year 200X",
+							"type": "artist",
+							"uri": "spotify:artist:6JMGrupbzJZ3yuQhTGyeHr"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 386226,
+					"explicit": false,
+					"external_ids": { "isrc": "USE830910953" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/1mo7zvAi0AFpLj4ODV9AyY"
+					},
+					"href": "https://api.spotify.com/v1/tracks/1mo7zvAi0AFpLj4ODV9AyY",
+					"id": "1mo7zvAi0AFpLj4ODV9AyY",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Zelda II (Title - Battle - Fairy - Palace)",
+					"popularity": 17,
+					"preview_url": "https://p.scdn.co/mp3-preview/083903c32f17ab28ab20f8b2e7f3d0f49d24e3d6?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 13,
+					"type": "track",
+					"uri": "spotify:track:1mo7zvAi0AFpLj4ODV9AyY"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+								},
+								"href": "https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ",
+								"id": "1Xyo4u8uXC1ZmMpatF05PJ",
+								"name": "The Weeknd",
+								"type": "artist",
+								"uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/4yP0hdKOZPNshxUOjY0cZj"
+						},
+						"href": "https://api.spotify.com/v1/albums/4yP0hdKOZPNshxUOjY0cZj",
+						"id": "4yP0hdKOZPNshxUOjY0cZj",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048518863bc11d2aa12b54f5aeb36",
+								"width": 64
+							}
+						],
+						"name": "After Hours",
+						"release_date": "2020-03-20",
+						"release_date_precision": "day",
+						"total_tracks": 14,
+						"type": "album",
+						"uri": "spotify:album:4yP0hdKOZPNshxUOjY0cZj"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+							},
+							"href": "https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ",
+							"id": "1Xyo4u8uXC1ZmMpatF05PJ",
+							"name": "The Weeknd",
+							"type": "artist",
+							"uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 215626,
+					"explicit": true,
+					"external_ids": { "isrc": "USUG12000658" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/5QO79kh1waicV47BqGRL3g"
+					},
+					"href": "https://api.spotify.com/v1/tracks/5QO79kh1waicV47BqGRL3g",
+					"id": "5QO79kh1waicV47BqGRL3g",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Save Your Tears",
+					"popularity": 90,
+					"preview_url": null,
+					"track_number": 11,
+					"type": "track",
+					"uri": "spotify:track:5QO79kh1waicV47BqGRL3g"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+								},
+								"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+								"id": "4RddZ3iHvSpGV4dvATac9X",
+								"name": "Papa Roach",
+								"type": "artist",
+								"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5RhhT00kAnesUeDbEThexo"
+						},
+						"href": "https://api.spotify.com/v1/albums/5RhhT00kAnesUeDbEThexo",
+						"id": "5RhhT00kAnesUeDbEThexo",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737de47402fa10741bd0536799",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027de47402fa10741bd0536799",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517de47402fa10741bd0536799",
+								"width": 64
+							}
+						],
+						"name": "Greatest Hits Vol.2 The Better Noise Years",
+						"release_date": "2021-03-19",
+						"release_date_precision": "day",
+						"total_tracks": 21,
+						"type": "album",
+						"uri": "spotify:album:5RhhT00kAnesUeDbEThexo"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+							},
+							"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+							"id": "4RddZ3iHvSpGV4dvATac9X",
+							"name": "Papa Roach",
+							"type": "artist",
+							"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 214797,
+					"explicit": false,
+					"external_ids": { "isrc": "USDPK2000230" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/3ViE5zjLk07LjljeUUWtq0"
+					},
+					"href": "https://api.spotify.com/v1/tracks/3ViE5zjLk07LjljeUUWtq0",
+					"id": "3ViE5zjLk07LjljeUUWtq0",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Help - Remastered 2020",
+					"popularity": 36,
+					"preview_url": "https://p.scdn.co/mp3-preview/3090c4804b4a5f7b676b4b5d381441c659ecb1b5?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 2,
+					"type": "track",
+					"uri": "spotify:track:3ViE5zjLk07LjljeUUWtq0"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/0xRXCcSX89eobfrshSVdyu"
+								},
+								"href": "https://api.spotify.com/v1/artists/0xRXCcSX89eobfrshSVdyu",
+								"id": "0xRXCcSX89eobfrshSVdyu",
+								"name": "MEDUZA",
+								"type": "artist",
+								"uri": "spotify:artist:0xRXCcSX89eobfrshSVdyu"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/5KNNVgR6LBIABRIomyCwKJ"
+								},
+								"href": "https://api.spotify.com/v1/artists/5KNNVgR6LBIABRIomyCwKJ",
+								"id": "5KNNVgR6LBIABRIomyCwKJ",
+								"name": "Dermot Kennedy",
+								"type": "artist",
+								"uri": "spotify:artist:5KNNVgR6LBIABRIomyCwKJ"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/15sy3XQFShOFiDpKoxByyA"
+						},
+						"href": "https://api.spotify.com/v1/albums/15sy3XQFShOFiDpKoxByyA",
+						"id": "15sy3XQFShOFiDpKoxByyA",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273b6567be9f8b996a2b5f9b7fa",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02b6567be9f8b996a2b5f9b7fa",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851b6567be9f8b996a2b5f9b7fa",
+								"width": 64
+							}
+						],
+						"name": "Paradise",
+						"release_date": "2020-10-30",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:15sy3XQFShOFiDpKoxByyA"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/0xRXCcSX89eobfrshSVdyu"
+							},
+							"href": "https://api.spotify.com/v1/artists/0xRXCcSX89eobfrshSVdyu",
+							"id": "0xRXCcSX89eobfrshSVdyu",
+							"name": "MEDUZA",
+							"type": "artist",
+							"uri": "spotify:artist:0xRXCcSX89eobfrshSVdyu"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/5KNNVgR6LBIABRIomyCwKJ"
+							},
+							"href": "https://api.spotify.com/v1/artists/5KNNVgR6LBIABRIomyCwKJ",
+							"id": "5KNNVgR6LBIABRIomyCwKJ",
+							"name": "Dermot Kennedy",
+							"type": "artist",
+							"uri": "spotify:artist:5KNNVgR6LBIABRIomyCwKJ"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 167903,
+					"explicit": false,
+					"external_ids": { "isrc": "GBUM72005075" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/6ft4hAq6yde8jPZY2i5zLr"
+					},
+					"href": "https://api.spotify.com/v1/tracks/6ft4hAq6yde8jPZY2i5zLr",
+					"id": "6ft4hAq6yde8jPZY2i5zLr",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Paradise (feat. Dermot Kennedy)",
+					"popularity": 87,
+					"preview_url": null,
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:6ft4hAq6yde8jPZY2i5zLr"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+								},
+								"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+								"id": "4RddZ3iHvSpGV4dvATac9X",
+								"name": "Papa Roach",
+								"type": "artist",
+								"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5RhhT00kAnesUeDbEThexo"
+						},
+						"href": "https://api.spotify.com/v1/albums/5RhhT00kAnesUeDbEThexo",
+						"id": "5RhhT00kAnesUeDbEThexo",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737de47402fa10741bd0536799",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027de47402fa10741bd0536799",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517de47402fa10741bd0536799",
+								"width": 64
+							}
+						],
+						"name": "Greatest Hits Vol.2 The Better Noise Years",
+						"release_date": "2021-03-19",
+						"release_date_precision": "day",
+						"total_tracks": 21,
+						"type": "album",
+						"uri": "spotify:album:5RhhT00kAnesUeDbEThexo"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+							},
+							"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+							"id": "4RddZ3iHvSpGV4dvATac9X",
+							"name": "Papa Roach",
+							"type": "artist",
+							"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 227847,
+					"explicit": false,
+					"external_ids": { "isrc": "USDPK2000229" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/4w18x6612KWiMb9pM10agY"
+					},
+					"href": "https://api.spotify.com/v1/tracks/4w18x6612KWiMb9pM10agY",
+					"id": "4w18x6612KWiMb9pM10agY",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Born For Greatness - Remastered 2020",
+					"popularity": 35,
+					"preview_url": "https://p.scdn.co/mp3-preview/2f9e30d1d9dddade477cc85c268db0f38c51c4da?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:4w18x6612KWiMb9pM10agY"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/07YZf4WDAMNwqr4jfgOZ8y"
+								},
+								"href": "https://api.spotify.com/v1/artists/07YZf4WDAMNwqr4jfgOZ8y",
+								"id": "07YZf4WDAMNwqr4jfgOZ8y",
+								"name": "Jason Derulo",
+								"type": "artist",
+								"uri": "spotify:artist:07YZf4WDAMNwqr4jfgOZ8y"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/1XynjLPAyPi8SZAx8LHN0Z"
+								},
+								"href": "https://api.spotify.com/v1/artists/1XynjLPAyPi8SZAx8LHN0Z",
+								"id": "1XynjLPAyPi8SZAx8LHN0Z",
+								"name": "Nuka",
+								"type": "artist",
+								"uri": "spotify:artist:1XynjLPAyPi8SZAx8LHN0Z"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/3CHys9v5aX1NS861o6r556"
+						},
+						"href": "https://api.spotify.com/v1/albums/3CHys9v5aX1NS861o6r556",
+						"id": "3CHys9v5aX1NS861o6r556",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2739ade6f2e5b017be63562e23b",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e029ade6f2e5b017be63562e23b",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048519ade6f2e5b017be63562e23b",
+								"width": 64
+							}
+						],
+						"name": "Love Not War (The Tampa Beat)",
+						"release_date": "2020-11-20",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:3CHys9v5aX1NS861o6r556"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/07YZf4WDAMNwqr4jfgOZ8y"
+							},
+							"href": "https://api.spotify.com/v1/artists/07YZf4WDAMNwqr4jfgOZ8y",
+							"id": "07YZf4WDAMNwqr4jfgOZ8y",
+							"name": "Jason Derulo",
+							"type": "artist",
+							"uri": "spotify:artist:07YZf4WDAMNwqr4jfgOZ8y"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/1XynjLPAyPi8SZAx8LHN0Z"
+							},
+							"href": "https://api.spotify.com/v1/artists/1XynjLPAyPi8SZAx8LHN0Z",
+							"id": "1XynjLPAyPi8SZAx8LHN0Z",
+							"name": "Nuka",
+							"type": "artist",
+							"uri": "spotify:artist:1XynjLPAyPi8SZAx8LHN0Z"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 192921,
+					"explicit": false,
+					"external_ids": { "isrc": "GBARL2001440" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/4Lt6GXGzYsa1tgkv3nGSTm"
+					},
+					"href": "https://api.spotify.com/v1/tracks/4Lt6GXGzYsa1tgkv3nGSTm",
+					"id": "4Lt6GXGzYsa1tgkv3nGSTm",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Love Not War (The Tampa Beat)",
+					"popularity": 81,
+					"preview_url": "https://p.scdn.co/mp3-preview/b70b19e458390d63a79b2e2de3ad58de7ca6ff62?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:4Lt6GXGzYsa1tgkv3nGSTm"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+								},
+								"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+								"id": "4RddZ3iHvSpGV4dvATac9X",
+								"name": "Papa Roach",
+								"type": "artist",
+								"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5RhhT00kAnesUeDbEThexo"
+						},
+						"href": "https://api.spotify.com/v1/albums/5RhhT00kAnesUeDbEThexo",
+						"id": "5RhhT00kAnesUeDbEThexo",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737de47402fa10741bd0536799",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027de47402fa10741bd0536799",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517de47402fa10741bd0536799",
+								"width": 64
+							}
+						],
+						"name": "Greatest Hits Vol.2 The Better Noise Years",
+						"release_date": "2021-03-19",
+						"release_date_precision": "day",
+						"total_tracks": 21,
+						"type": "album",
+						"uri": "spotify:album:5RhhT00kAnesUeDbEThexo"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+							},
+							"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+							"id": "4RddZ3iHvSpGV4dvATac9X",
+							"name": "Papa Roach",
+							"type": "artist",
+							"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 210961,
+					"explicit": false,
+					"external_ids": { "isrc": "USDPK2000232" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/19XsdKehaBTpfhwS6OSdYr"
+					},
+					"href": "https://api.spotify.com/v1/tracks/19XsdKehaBTpfhwS6OSdYr",
+					"id": "19XsdKehaBTpfhwS6OSdYr",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Come Around - Remastered 2020",
+					"popularity": 33,
+					"preview_url": "https://p.scdn.co/mp3-preview/66a2eb526164870a946fde83b8a8e891e9842ff5?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 4,
+					"type": "track",
+					"uri": "spotify:track:19XsdKehaBTpfhwS6OSdYr"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/2tIP7SsRs7vjIcLrU85W8J"
+								},
+								"href": "https://api.spotify.com/v1/artists/2tIP7SsRs7vjIcLrU85W8J",
+								"id": "2tIP7SsRs7vjIcLrU85W8J",
+								"name": "The Kid LAROI",
+								"type": "artist",
+								"uri": "spotify:artist:2tIP7SsRs7vjIcLrU85W8J"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/3YjfdLdpQcVI72uKhooZst"
+						},
+						"href": "https://api.spotify.com/v1/albums/3YjfdLdpQcVI72uKhooZst",
+						"id": "3YjfdLdpQcVI72uKhooZst",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273df16d539f508603bfb1efe02",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02df16d539f508603bfb1efe02",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851df16d539f508603bfb1efe02",
+								"width": 64
+							}
+						],
+						"name": "F*CK LOVE (SAVAGE)",
+						"release_date": "2020-11-06",
+						"release_date_precision": "day",
+						"total_tracks": 22,
+						"type": "album",
+						"uri": "spotify:album:3YjfdLdpQcVI72uKhooZst"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/2tIP7SsRs7vjIcLrU85W8J"
+							},
+							"href": "https://api.spotify.com/v1/artists/2tIP7SsRs7vjIcLrU85W8J",
+							"id": "2tIP7SsRs7vjIcLrU85W8J",
+							"name": "The Kid LAROI",
+							"type": "artist",
+							"uri": "spotify:artist:2tIP7SsRs7vjIcLrU85W8J"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 161384,
+					"explicit": true,
+					"external_ids": { "isrc": "USSM12006586" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/27OeeYzk6klgBh83TSvGMA"
+					},
+					"href": "https://api.spotify.com/v1/tracks/27OeeYzk6klgBh83TSvGMA",
+					"id": "27OeeYzk6klgBh83TSvGMA",
+					"is_local": false,
+					"is_playable": true,
+					"name": "WITHOUT YOU",
+					"popularity": 88,
+					"preview_url": "https://p.scdn.co/mp3-preview/a1514ea0f0c4f729a2ed238ac255f988af195569?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 7,
+					"type": "track",
+					"uri": "spotify:track:27OeeYzk6klgBh83TSvGMA"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+								},
+								"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+								"id": "4RddZ3iHvSpGV4dvATac9X",
+								"name": "Papa Roach",
+								"type": "artist",
+								"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5RhhT00kAnesUeDbEThexo"
+						},
+						"href": "https://api.spotify.com/v1/albums/5RhhT00kAnesUeDbEThexo",
+						"id": "5RhhT00kAnesUeDbEThexo",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737de47402fa10741bd0536799",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027de47402fa10741bd0536799",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517de47402fa10741bd0536799",
+								"width": 64
+							}
+						],
+						"name": "Greatest Hits Vol.2 The Better Noise Years",
+						"release_date": "2021-03-19",
+						"release_date_precision": "day",
+						"total_tracks": 21,
+						"type": "album",
+						"uri": "spotify:album:5RhhT00kAnesUeDbEThexo"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+							},
+							"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+							"id": "4RddZ3iHvSpGV4dvATac9X",
+							"name": "Papa Roach",
+							"type": "artist",
+							"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/6W8xq7TXME3WXP7c7LMWBR"
+							},
+							"href": "https://api.spotify.com/v1/artists/6W8xq7TXME3WXP7c7LMWBR",
+							"id": "6W8xq7TXME3WXP7c7LMWBR",
+							"name": "Maria Brink",
+							"type": "artist",
+							"uri": "spotify:artist:6W8xq7TXME3WXP7c7LMWBR"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 244448,
+					"explicit": false,
+					"external_ids": { "isrc": "USDPK2000235" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/4zN1YCljFntHRccaX35RNg"
+					},
+					"href": "https://api.spotify.com/v1/tracks/4zN1YCljFntHRccaX35RNg",
+					"id": "4zN1YCljFntHRccaX35RNg",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Gravity - Remastered 2020",
+					"popularity": 34,
+					"preview_url": "https://p.scdn.co/mp3-preview/847eb0f7ce79f08c522b156a5aef755e9e65fcba?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 8,
+					"type": "track",
+					"uri": "spotify:track:4zN1YCljFntHRccaX35RNg"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/34LetYSjEuG2fBb4Z8PwPg"
+								},
+								"href": "https://api.spotify.com/v1/artists/34LetYSjEuG2fBb4Z8PwPg",
+								"id": "34LetYSjEuG2fBb4Z8PwPg",
+								"name": "Pashanim",
+								"type": "artist",
+								"uri": "spotify:artist:34LetYSjEuG2fBb4Z8PwPg"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/4ZylcATH7a5JkgNNGXxwhJ"
+						},
+						"href": "https://api.spotify.com/v1/albums/4ZylcATH7a5JkgNNGXxwhJ",
+						"id": "4ZylcATH7a5JkgNNGXxwhJ",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273bef362b164cb7ebc1b1d8eb7",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02bef362b164cb7ebc1b1d8eb7",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851bef362b164cb7ebc1b1d8eb7",
+								"width": 64
+							}
+						],
+						"name": "Airwaves",
+						"release_date": "2020-05-14",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:4ZylcATH7a5JkgNNGXxwhJ"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/34LetYSjEuG2fBb4Z8PwPg"
+							},
+							"href": "https://api.spotify.com/v1/artists/34LetYSjEuG2fBb4Z8PwPg",
+							"id": "34LetYSjEuG2fBb4Z8PwPg",
+							"name": "Pashanim",
+							"type": "artist",
+							"uri": "spotify:artist:34LetYSjEuG2fBb4Z8PwPg"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 178932,
+					"explicit": false,
+					"external_ids": { "isrc": "DECE72000342" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/5CqkgDH8QZjSqqI3HmYxDD"
+					},
+					"href": "https://api.spotify.com/v1/tracks/5CqkgDH8QZjSqqI3HmYxDD",
+					"id": "5CqkgDH8QZjSqqI3HmYxDD",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Airwaves",
+					"popularity": 72,
+					"preview_url": null,
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:5CqkgDH8QZjSqqI3HmYxDD"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+								},
+								"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+								"id": "4RddZ3iHvSpGV4dvATac9X",
+								"name": "Papa Roach",
+								"type": "artist",
+								"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5RhhT00kAnesUeDbEThexo"
+						},
+						"href": "https://api.spotify.com/v1/albums/5RhhT00kAnesUeDbEThexo",
+						"id": "5RhhT00kAnesUeDbEThexo",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737de47402fa10741bd0536799",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027de47402fa10741bd0536799",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517de47402fa10741bd0536799",
+								"width": 64
+							}
+						],
+						"name": "Greatest Hits Vol.2 The Better Noise Years",
+						"release_date": "2021-03-19",
+						"release_date_precision": "day",
+						"total_tracks": 21,
+						"type": "album",
+						"uri": "spotify:album:5RhhT00kAnesUeDbEThexo"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+							},
+							"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+							"id": "4RddZ3iHvSpGV4dvATac9X",
+							"name": "Papa Roach",
+							"type": "artist",
+							"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 190000,
+					"explicit": false,
+					"external_ids": { "isrc": "USDPK2000231" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/5vi1VaZmV5CzibWGIcf9G4"
+					},
+					"href": "https://api.spotify.com/v1/tracks/5vi1VaZmV5CzibWGIcf9G4",
+					"id": "5vi1VaZmV5CzibWGIcf9G4",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Elevate - Remastered 2020",
+					"popularity": 33,
+					"preview_url": "https://p.scdn.co/mp3-preview/01747c74073aa96099b1255a678d7489ad0943cf?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 3,
+					"type": "track",
+					"uri": "spotify:track:5vi1VaZmV5CzibWGIcf9G4"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/6Cw4b0HJcYPaG1ik1tpdZa"
+								},
+								"href": "https://api.spotify.com/v1/artists/6Cw4b0HJcYPaG1ik1tpdZa",
+								"id": "6Cw4b0HJcYPaG1ik1tpdZa",
+								"name": "Samo104",
+								"type": "artist",
+								"uri": "spotify:artist:6Cw4b0HJcYPaG1ik1tpdZa"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/1ZbqHSFH6cBmvKZ707GEmX"
+						},
+						"href": "https://api.spotify.com/v1/albums/1ZbqHSFH6cBmvKZ707GEmX",
+						"id": "1ZbqHSFH6cBmvKZ707GEmX",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b27324a5274c4239d8f7bb64768d",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e0224a5274c4239d8f7bb64768d",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d0000485124a5274c4239d8f7bb64768d",
+								"width": 64
+							}
+						],
+						"name": "Fuck Love",
+						"release_date": "2020-09-25",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:1ZbqHSFH6cBmvKZ707GEmX"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/6Cw4b0HJcYPaG1ik1tpdZa"
+							},
+							"href": "https://api.spotify.com/v1/artists/6Cw4b0HJcYPaG1ik1tpdZa",
+							"id": "6Cw4b0HJcYPaG1ik1tpdZa",
+							"name": "Samo104",
+							"type": "artist",
+							"uri": "spotify:artist:6Cw4b0HJcYPaG1ik1tpdZa"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 181500,
+					"explicit": true,
+					"external_ids": { "isrc": "FRX762066178" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/0HhifV2v8vcNC4I3gpnwf3"
+					},
+					"href": "https://api.spotify.com/v1/tracks/0HhifV2v8vcNC4I3gpnwf3",
+					"id": "0HhifV2v8vcNC4I3gpnwf3",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Fuck Love",
+					"popularity": 70,
+					"preview_url": "https://p.scdn.co/mp3-preview/19e593db290130d78bf91811e692cc5072714875?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:0HhifV2v8vcNC4I3gpnwf3"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+								},
+								"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+								"id": "4RddZ3iHvSpGV4dvATac9X",
+								"name": "Papa Roach",
+								"type": "artist",
+								"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5RhhT00kAnesUeDbEThexo"
+						},
+						"href": "https://api.spotify.com/v1/albums/5RhhT00kAnesUeDbEThexo",
+						"id": "5RhhT00kAnesUeDbEThexo",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737de47402fa10741bd0536799",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027de47402fa10741bd0536799",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517de47402fa10741bd0536799",
+								"width": 64
+							}
+						],
+						"name": "Greatest Hits Vol.2 The Better Noise Years",
+						"release_date": "2021-03-19",
+						"release_date_precision": "day",
+						"total_tracks": 21,
+						"type": "album",
+						"uri": "spotify:album:5RhhT00kAnesUeDbEThexo"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+							},
+							"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+							"id": "4RddZ3iHvSpGV4dvATac9X",
+							"name": "Papa Roach",
+							"type": "artist",
+							"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 209828,
+					"explicit": false,
+					"external_ids": { "isrc": "USDPK2000227" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/6t1OmNgczg0oaGbpfzHVLR"
+					},
+					"href": "https://api.spotify.com/v1/tracks/6t1OmNgczg0oaGbpfzHVLR",
+					"id": "6t1OmNgczg0oaGbpfzHVLR",
+					"is_local": false,
+					"is_playable": true,
+					"name": "The Ending - Remastered 2020",
+					"popularity": 32,
+					"preview_url": "https://p.scdn.co/mp3-preview/870e4361c17d4bf1b35e0af43c784630fc36fc46?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 13,
+					"type": "track",
+					"uri": "spotify:track:6t1OmNgczg0oaGbpfzHVLR"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4mrBetqy378Jf1y6NLszlx"
+								},
+								"href": "https://api.spotify.com/v1/artists/4mrBetqy378Jf1y6NLszlx",
+								"id": "4mrBetqy378Jf1y6NLszlx",
+								"name": "VINAI",
+								"type": "artist",
+								"uri": "spotify:artist:4mrBetqy378Jf1y6NLszlx"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/74GrV01oFcjJdLHCF9MWhr"
+								},
+								"href": "https://api.spotify.com/v1/artists/74GrV01oFcjJdLHCF9MWhr",
+								"id": "74GrV01oFcjJdLHCF9MWhr",
+								"name": "VAMERO",
+								"type": "artist",
+								"uri": "spotify:artist:74GrV01oFcjJdLHCF9MWhr"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/4DsxykS9CPTnJPeoWXkRV8"
+						},
+						"href": "https://api.spotify.com/v1/albums/4DsxykS9CPTnJPeoWXkRV8",
+						"id": "4DsxykS9CPTnJPeoWXkRV8",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273b6615e0d7d87c4cb94f87c14",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02b6615e0d7d87c4cb94f87c14",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851b6615e0d7d87c4cb94f87c14",
+								"width": 64
+							}
+						],
+						"name": "Rise Up (feat. Vamero)",
+						"release_date": "2020-05-01",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:4DsxykS9CPTnJPeoWXkRV8"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4mrBetqy378Jf1y6NLszlx"
+							},
+							"href": "https://api.spotify.com/v1/artists/4mrBetqy378Jf1y6NLszlx",
+							"id": "4mrBetqy378Jf1y6NLszlx",
+							"name": "VINAI",
+							"type": "artist",
+							"uri": "spotify:artist:4mrBetqy378Jf1y6NLszlx"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/74GrV01oFcjJdLHCF9MWhr"
+							},
+							"href": "https://api.spotify.com/v1/artists/74GrV01oFcjJdLHCF9MWhr",
+							"id": "74GrV01oFcjJdLHCF9MWhr",
+							"name": "VAMERO",
+							"type": "artist",
+							"uri": "spotify:artist:74GrV01oFcjJdLHCF9MWhr"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 182000,
+					"explicit": false,
+					"external_ids": { "isrc": "NLZ542000537" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/46lyJh9GYmWsHez3EsvmAx"
+					},
+					"href": "https://api.spotify.com/v1/tracks/46lyJh9GYmWsHez3EsvmAx",
+					"id": "46lyJh9GYmWsHez3EsvmAx",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Rise Up (feat. Vamero)",
+					"popularity": 79,
+					"preview_url": "https://p.scdn.co/mp3-preview/b6339551d44ba0c810ee39f86709d16683f5f38d?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:46lyJh9GYmWsHez3EsvmAx"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+								},
+								"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+								"id": "4RddZ3iHvSpGV4dvATac9X",
+								"name": "Papa Roach",
+								"type": "artist",
+								"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5RhhT00kAnesUeDbEThexo"
+						},
+						"href": "https://api.spotify.com/v1/albums/5RhhT00kAnesUeDbEThexo",
+						"id": "5RhhT00kAnesUeDbEThexo",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737de47402fa10741bd0536799",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027de47402fa10741bd0536799",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517de47402fa10741bd0536799",
+								"width": 64
+							}
+						],
+						"name": "Greatest Hits Vol.2 The Better Noise Years",
+						"release_date": "2021-03-19",
+						"release_date_precision": "day",
+						"total_tracks": 21,
+						"type": "album",
+						"uri": "spotify:album:5RhhT00kAnesUeDbEThexo"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+							},
+							"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+							"id": "4RddZ3iHvSpGV4dvATac9X",
+							"name": "Papa Roach",
+							"type": "artist",
+							"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 188919,
+					"explicit": false,
+					"external_ids": { "isrc": "USDPK2000233" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/2qkxnCKVOKbQZcO8TEcXH1"
+					},
+					"href": "https://api.spotify.com/v1/tracks/2qkxnCKVOKbQZcO8TEcXH1",
+					"id": "2qkxnCKVOKbQZcO8TEcXH1",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Falling Apart - Remastered 2020",
+					"popularity": 33,
+					"preview_url": "https://p.scdn.co/mp3-preview/20f772a0792776d26b27057888a3fb8b4f226de4?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 6,
+					"type": "track",
+					"uri": "spotify:track:2qkxnCKVOKbQZcO8TEcXH1"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/2o08sCWF5yyo2G4DCiT7T9"
+								},
+								"href": "https://api.spotify.com/v1/artists/2o08sCWF5yyo2G4DCiT7T9",
+								"id": "2o08sCWF5yyo2G4DCiT7T9",
+								"name": "HVME",
+								"type": "artist",
+								"uri": "spotify:artist:2o08sCWF5yyo2G4DCiT7T9"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/49HjM8mnjS9PgYjSC03tkS"
+						},
+						"href": "https://api.spotify.com/v1/albums/49HjM8mnjS9PgYjSC03tkS",
+						"id": "49HjM8mnjS9PgYjSC03tkS",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2735d29fc4c51a450bd32135de1",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e025d29fc4c51a450bd32135de1",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048515d29fc4c51a450bd32135de1",
+								"width": 64
+							}
+						],
+						"name": "Goosebumps",
+						"release_date": "2020-06-12",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:49HjM8mnjS9PgYjSC03tkS"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/2o08sCWF5yyo2G4DCiT7T9"
+							},
+							"href": "https://api.spotify.com/v1/artists/2o08sCWF5yyo2G4DCiT7T9",
+							"id": "2o08sCWF5yyo2G4DCiT7T9",
+							"name": "HVME",
+							"type": "artist",
+							"uri": "spotify:artist:2o08sCWF5yyo2G4DCiT7T9"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 163208,
+					"explicit": true,
+					"external_ids": { "isrc": "TCAEW2040509" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/20McUFi8KCIVdNDLrkTDuZ"
+					},
+					"href": "https://api.spotify.com/v1/tracks/20McUFi8KCIVdNDLrkTDuZ",
+					"id": "20McUFi8KCIVdNDLrkTDuZ",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Goosebumps",
+					"popularity": 83,
+					"preview_url": "https://p.scdn.co/mp3-preview/2db2660b461e6620ba258e840b6d6d6e5585f168?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:20McUFi8KCIVdNDLrkTDuZ"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
+								},
+								"href": "https://api.spotify.com/v1/artists/5INjqkS1o8h1imAzPqGZBb",
+								"id": "5INjqkS1o8h1imAzPqGZBb",
+								"name": "Tame Impala",
+								"type": "artist",
+								"uri": "spotify:artist:5INjqkS1o8h1imAzPqGZBb"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/65BL1WmHblGCNmhzfgYEyD"
+						},
+						"href": "https://api.spotify.com/v1/albums/65BL1WmHblGCNmhzfgYEyD",
+						"id": "65BL1WmHblGCNmhzfgYEyD",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273703add8a8bef1eb6a0fad4f7",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02703add8a8bef1eb6a0fad4f7",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851703add8a8bef1eb6a0fad4f7",
+								"width": 64
+							}
+						],
+						"name": "InnerSpeaker (10 Year Anniversary Edition)",
+						"release_date": "2021-04-30",
+						"release_date_precision": "day",
+						"total_tracks": 13,
+						"type": "album",
+						"uri": "spotify:album:65BL1WmHblGCNmhzfgYEyD"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
+							},
+							"href": "https://api.spotify.com/v1/artists/5INjqkS1o8h1imAzPqGZBb",
+							"id": "5INjqkS1o8h1imAzPqGZBb",
+							"name": "Tame Impala",
+							"type": "artist",
+							"uri": "spotify:artist:5INjqkS1o8h1imAzPqGZBb"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 428626,
+					"explicit": false,
+					"external_ids": { "isrc": "AUUM72000822" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/2rOsZbCZxH7P4mvuiBIgoP"
+					},
+					"href": "https://api.spotify.com/v1/tracks/2rOsZbCZxH7P4mvuiBIgoP",
+					"id": "2rOsZbCZxH7P4mvuiBIgoP",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Runway Houses City Clouds - 2020 Mix",
+					"popularity": 45,
+					"preview_url": null,
+					"track_number": 13,
+					"type": "track",
+					"uri": "spotify:track:2rOsZbCZxH7P4mvuiBIgoP"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/7ACEUD7UsmmXrnj4OLt8f9"
+								},
+								"href": "https://api.spotify.com/v1/artists/7ACEUD7UsmmXrnj4OLt8f9",
+								"id": "7ACEUD7UsmmXrnj4OLt8f9",
+								"name": "twocolors",
+								"type": "artist",
+								"uri": "spotify:artist:7ACEUD7UsmmXrnj4OLt8f9"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/6UYWmM8RfG3DAKC7OyUPBT"
+						},
+						"href": "https://api.spotify.com/v1/albums/6UYWmM8RfG3DAKC7OyUPBT",
+						"id": "6UYWmM8RfG3DAKC7OyUPBT",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273985af358f1143c69e4d56701",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02985af358f1143c69e4d56701",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851985af358f1143c69e4d56701",
+								"width": 64
+							}
+						],
+						"name": "Lovefool",
+						"release_date": "2020-05-08",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:6UYWmM8RfG3DAKC7OyUPBT"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/7ACEUD7UsmmXrnj4OLt8f9"
+							},
+							"href": "https://api.spotify.com/v1/artists/7ACEUD7UsmmXrnj4OLt8f9",
+							"id": "7ACEUD7UsmmXrnj4OLt8f9",
+							"name": "twocolors",
+							"type": "artist",
+							"uri": "spotify:artist:7ACEUD7UsmmXrnj4OLt8f9"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 190487,
+					"explicit": false,
+					"external_ids": { "isrc": "DEUM72001376" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/51Of5p3lKZeOg6itfs4og4"
+					},
+					"href": "https://api.spotify.com/v1/tracks/51Of5p3lKZeOg6itfs4og4",
+					"id": "51Of5p3lKZeOg6itfs4og4",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Lovefool",
+					"popularity": 80,
+					"preview_url": null,
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:51Of5p3lKZeOg6itfs4og4"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+								},
+								"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+								"id": "4RddZ3iHvSpGV4dvATac9X",
+								"name": "Papa Roach",
+								"type": "artist",
+								"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5RhhT00kAnesUeDbEThexo"
+						},
+						"href": "https://api.spotify.com/v1/albums/5RhhT00kAnesUeDbEThexo",
+						"id": "5RhhT00kAnesUeDbEThexo",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737de47402fa10741bd0536799",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027de47402fa10741bd0536799",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517de47402fa10741bd0536799",
+								"width": 64
+							}
+						],
+						"name": "Greatest Hits Vol.2 The Better Noise Years",
+						"release_date": "2021-03-19",
+						"release_date_precision": "day",
+						"total_tracks": 21,
+						"type": "album",
+						"uri": "spotify:album:5RhhT00kAnesUeDbEThexo"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+							},
+							"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+							"id": "4RddZ3iHvSpGV4dvATac9X",
+							"name": "Papa Roach",
+							"type": "artist",
+							"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4utLUGcTvOJFr6aqIJtYWV"
+							},
+							"href": "https://api.spotify.com/v1/artists/4utLUGcTvOJFr6aqIJtYWV",
+							"id": "4utLUGcTvOJFr6aqIJtYWV",
+							"name": "Skylar Grey",
+							"type": "artist",
+							"uri": "spotify:artist:4utLUGcTvOJFr6aqIJtYWV"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 216770,
+					"explicit": false,
+					"external_ids": { "isrc": "USDPK2000238" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/3DFp3sRBA9iWzZqEPLq8gM"
+					},
+					"href": "https://api.spotify.com/v1/tracks/3DFp3sRBA9iWzZqEPLq8gM",
+					"id": "3DFp3sRBA9iWzZqEPLq8gM",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Periscope - Remastered 2020",
+					"popularity": 32,
+					"preview_url": "https://p.scdn.co/mp3-preview/51463ec55c75a9b31020e662e1331eb7b9c1da11?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 11,
+					"type": "track",
+					"uri": "spotify:track:3DFp3sRBA9iWzZqEPLq8gM"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/5tHiL8SKSaZGMBUPIiSmX4"
+								},
+								"href": "https://api.spotify.com/v1/artists/5tHiL8SKSaZGMBUPIiSmX4",
+								"id": "5tHiL8SKSaZGMBUPIiSmX4",
+								"name": "KitschKrieg",
+								"type": "artist",
+								"uri": "spotify:artist:5tHiL8SKSaZGMBUPIiSmX4"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/53EHeXzGs4HheTCTnwfPEr"
+								},
+								"href": "https://api.spotify.com/v1/artists/53EHeXzGs4HheTCTnwfPEr",
+								"id": "53EHeXzGs4HheTCTnwfPEr",
+								"name": "SFR",
+								"type": "artist",
+								"uri": "spotify:artist:53EHeXzGs4HheTCTnwfPEr"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/1HZDvQKz15zFEVJdaKEoVi"
+						},
+						"href": "https://api.spotify.com/v1/albums/1HZDvQKz15zFEVJdaKEoVi",
+						"id": "1HZDvQKz15zFEVJdaKEoVi",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273e6fade78d796dbacf9628c50",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02e6fade78d796dbacf9628c50",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851e6fade78d796dbacf9628c50",
+								"width": 64
+							}
+						],
+						"name": "KitschKrieg",
+						"release_date": "2020-08-07",
+						"release_date_precision": "day",
+						"total_tracks": 12,
+						"type": "album",
+						"uri": "spotify:album:1HZDvQKz15zFEVJdaKEoVi"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/5tHiL8SKSaZGMBUPIiSmX4"
+							},
+							"href": "https://api.spotify.com/v1/artists/5tHiL8SKSaZGMBUPIiSmX4",
+							"id": "5tHiL8SKSaZGMBUPIiSmX4",
+							"name": "KitschKrieg",
+							"type": "artist",
+							"uri": "spotify:artist:5tHiL8SKSaZGMBUPIiSmX4"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4sVieJlKgpZ2k9ESNS5IdN"
+							},
+							"href": "https://api.spotify.com/v1/artists/4sVieJlKgpZ2k9ESNS5IdN",
+							"id": "4sVieJlKgpZ2k9ESNS5IdN",
+							"name": "Jamule",
+							"type": "artist",
+							"uri": "spotify:artist:4sVieJlKgpZ2k9ESNS5IdN"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/53EHeXzGs4HheTCTnwfPEr"
+							},
+							"href": "https://api.spotify.com/v1/artists/53EHeXzGs4HheTCTnwfPEr",
+							"id": "53EHeXzGs4HheTCTnwfPEr",
+							"name": "SFR",
+							"type": "artist",
+							"uri": "spotify:artist:53EHeXzGs4HheTCTnwfPEr"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 233905,
+					"explicit": false,
+					"external_ids": { "isrc": "DELV42000428" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/7mrWTjhYctgEQb0lJKrVWy"
+					},
+					"href": "https://api.spotify.com/v1/tracks/7mrWTjhYctgEQb0lJKrVWy",
+					"id": "7mrWTjhYctgEQb0lJKrVWy",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Unterwegs",
+					"popularity": 69,
+					"preview_url": "https://p.scdn.co/mp3-preview/c43aa64acc6d4a2774a045aa4da4c3dfa41c6309?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 2,
+					"type": "track",
+					"uri": "spotify:track:7mrWTjhYctgEQb0lJKrVWy"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+								},
+								"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+								"id": "4RddZ3iHvSpGV4dvATac9X",
+								"name": "Papa Roach",
+								"type": "artist",
+								"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5RhhT00kAnesUeDbEThexo"
+						},
+						"href": "https://api.spotify.com/v1/albums/5RhhT00kAnesUeDbEThexo",
+						"id": "5RhhT00kAnesUeDbEThexo",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737de47402fa10741bd0536799",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027de47402fa10741bd0536799",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517de47402fa10741bd0536799",
+								"width": 64
+							}
+						],
+						"name": "Greatest Hits Vol.2 The Better Noise Years",
+						"release_date": "2021-03-19",
+						"release_date_precision": "day",
+						"total_tracks": 21,
+						"type": "album",
+						"uri": "spotify:album:5RhhT00kAnesUeDbEThexo"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+							},
+							"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+							"id": "4RddZ3iHvSpGV4dvATac9X",
+							"name": "Papa Roach",
+							"type": "artist",
+							"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 203118,
+					"explicit": true,
+					"external_ids": { "isrc": "USDPK2000236" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/6HLk3upJqJAmVNdMbnxT8g"
+					},
+					"href": "https://api.spotify.com/v1/tracks/6HLk3upJqJAmVNdMbnxT8g",
+					"id": "6HLk3upJqJAmVNdMbnxT8g",
+					"is_local": false,
+					"is_playable": true,
+					"name": "American Dreams - Remastered 2020",
+					"popularity": 32,
+					"preview_url": "https://p.scdn.co/mp3-preview/fcdf2f2cb058747241d01352654c056d746929eb?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 9,
+					"type": "track",
+					"uri": "spotify:track:6HLk3upJqJAmVNdMbnxT8g"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4r63FhuTkUYltbVAg5TQnk"
+								},
+								"href": "https://api.spotify.com/v1/artists/4r63FhuTkUYltbVAg5TQnk",
+								"id": "4r63FhuTkUYltbVAg5TQnk",
+								"name": "DaBaby",
+								"type": "artist",
+								"uri": "spotify:artist:4r63FhuTkUYltbVAg5TQnk"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/623PL2MBg50Br5dLXC9E9e"
+						},
+						"href": "https://api.spotify.com/v1/albums/623PL2MBg50Br5dLXC9E9e",
+						"id": "623PL2MBg50Br5dLXC9E9e",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b27320e08c8cc23f404d723b5647",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e0220e08c8cc23f404d723b5647",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d0000485120e08c8cc23f404d723b5647",
+								"width": 64
+							}
+						],
+						"name": "BLAME IT ON BABY",
+						"release_date": "2020-04-17",
+						"release_date_precision": "day",
+						"total_tracks": 13,
+						"type": "album",
+						"uri": "spotify:album:623PL2MBg50Br5dLXC9E9e"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4r63FhuTkUYltbVAg5TQnk"
+							},
+							"href": "https://api.spotify.com/v1/artists/4r63FhuTkUYltbVAg5TQnk",
+							"id": "4r63FhuTkUYltbVAg5TQnk",
+							"name": "DaBaby",
+							"type": "artist",
+							"uri": "spotify:artist:4r63FhuTkUYltbVAg5TQnk"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/757aE44tKEUQEqRuT6GnEB"
+							},
+							"href": "https://api.spotify.com/v1/artists/757aE44tKEUQEqRuT6GnEB",
+							"id": "757aE44tKEUQEqRuT6GnEB",
+							"name": "Roddy Ricch",
+							"type": "artist",
+							"uri": "spotify:artist:757aE44tKEUQEqRuT6GnEB"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 181733,
+					"explicit": true,
+					"external_ids": { "isrc": "USUM72007941" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/7ytR5pFWmSjzHJIeQkgog4"
+					},
+					"href": "https://api.spotify.com/v1/tracks/7ytR5pFWmSjzHJIeQkgog4",
+					"id": "7ytR5pFWmSjzHJIeQkgog4",
+					"is_local": false,
+					"is_playable": true,
+					"name": "ROCKSTAR (feat. Roddy Ricch)",
+					"popularity": 87,
+					"preview_url": null,
+					"track_number": 7,
+					"type": "track",
+					"uri": "spotify:track:7ytR5pFWmSjzHJIeQkgog4"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/3a9qv6NLHnsVxJUtKOMHvD"
+								},
+								"href": "https://api.spotify.com/v1/artists/3a9qv6NLHnsVxJUtKOMHvD",
+								"id": "3a9qv6NLHnsVxJUtKOMHvD",
+								"name": "The Glitch Mob",
+								"type": "artist",
+								"uri": "spotify:artist:3a9qv6NLHnsVxJUtKOMHvD"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/4yPty9Y7Gh4eFPn7D9YUwE"
+						},
+						"href": "https://api.spotify.com/v1/albums/4yPty9Y7Gh4eFPn7D9YUwE",
+						"id": "4yPty9Y7Gh4eFPn7D9YUwE",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273732e0b1bc8d8c02fbed59237",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02732e0b1bc8d8c02fbed59237",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851732e0b1bc8d8c02fbed59237",
+								"width": 64
+							}
+						],
+						"name": "Drink the Sea (10 Year Anniversary Deluxe Edition)",
+						"release_date": "2020-12-04",
+						"release_date_precision": "day",
+						"total_tracks": 17,
+						"type": "album",
+						"uri": "spotify:album:4yPty9Y7Gh4eFPn7D9YUwE"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/3a9qv6NLHnsVxJUtKOMHvD"
+							},
+							"href": "https://api.spotify.com/v1/artists/3a9qv6NLHnsVxJUtKOMHvD",
+							"id": "3a9qv6NLHnsVxJUtKOMHvD",
+							"name": "The Glitch Mob",
+							"type": "artist",
+							"uri": "spotify:artist:3a9qv6NLHnsVxJUtKOMHvD"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/7wyUxqEXw6j7Gk2v7gz8zH"
+							},
+							"href": "https://api.spotify.com/v1/artists/7wyUxqEXw6j7Gk2v7gz8zH",
+							"id": "7wyUxqEXw6j7Gk2v7gz8zH",
+							"name": "Swan",
+							"type": "artist",
+							"uri": "spotify:artist:7wyUxqEXw6j7Gk2v7gz8zH"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 333193,
+					"explicit": false,
+					"external_ids": { "isrc": "QMBZ92059011" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/0sfly5zhJJhfoLbcCMmiRB"
+					},
+					"href": "https://api.spotify.com/v1/tracks/0sfly5zhJJhfoLbcCMmiRB",
+					"id": "0sfly5zhJJhfoLbcCMmiRB",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Between Two Points (feat. Swan) - 2020 Remaster",
+					"popularity": 36,
+					"preview_url": "https://p.scdn.co/mp3-preview/580062e1ee312b951f0147486f70f3d04a8b07b7?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 6,
+					"type": "track",
+					"uri": "spotify:track:0sfly5zhJJhfoLbcCMmiRB"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/2WBJQGf1bT1kxuoqziH5g4"
+								},
+								"href": "https://api.spotify.com/v1/artists/2WBJQGf1bT1kxuoqziH5g4",
+								"id": "2WBJQGf1bT1kxuoqziH5g4",
+								"name": "Purple Disco Machine",
+								"type": "artist",
+								"uri": "spotify:artist:2WBJQGf1bT1kxuoqziH5g4"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4FrXHrpbDLNyO3pbVv8RmF"
+								},
+								"href": "https://api.spotify.com/v1/artists/4FrXHrpbDLNyO3pbVv8RmF",
+								"id": "4FrXHrpbDLNyO3pbVv8RmF",
+								"name": "Sophie and the Giants",
+								"type": "artist",
+								"uri": "spotify:artist:4FrXHrpbDLNyO3pbVv8RmF"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/3i75dx8ORmKhhdwKLyZHqM"
+						},
+						"href": "https://api.spotify.com/v1/albums/3i75dx8ORmKhhdwKLyZHqM",
+						"id": "3i75dx8ORmKhhdwKLyZHqM",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b27397d1c39f7d7e80aab88cbf34",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e0297d1c39f7d7e80aab88cbf34",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d0000485197d1c39f7d7e80aab88cbf34",
+								"width": 64
+							}
+						],
+						"name": "Hypnotized",
+						"release_date": "2020-04-08",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:3i75dx8ORmKhhdwKLyZHqM"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/2WBJQGf1bT1kxuoqziH5g4"
+							},
+							"href": "https://api.spotify.com/v1/artists/2WBJQGf1bT1kxuoqziH5g4",
+							"id": "2WBJQGf1bT1kxuoqziH5g4",
+							"name": "Purple Disco Machine",
+							"type": "artist",
+							"uri": "spotify:artist:2WBJQGf1bT1kxuoqziH5g4"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4FrXHrpbDLNyO3pbVv8RmF"
+							},
+							"href": "https://api.spotify.com/v1/artists/4FrXHrpbDLNyO3pbVv8RmF",
+							"id": "4FrXHrpbDLNyO3pbVv8RmF",
+							"name": "Sophie and the Giants",
+							"type": "artist",
+							"uri": "spotify:artist:4FrXHrpbDLNyO3pbVv8RmF"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 195657,
+					"explicit": false,
+					"external_ids": { "isrc": "AUDCB1701555" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/0vWUhCPxpJOJR5urYbZypB"
+					},
+					"href": "https://api.spotify.com/v1/tracks/0vWUhCPxpJOJR5urYbZypB",
+					"id": "0vWUhCPxpJOJR5urYbZypB",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Hypnotized",
+					"popularity": 77,
+					"preview_url": "https://p.scdn.co/mp3-preview/48dabc5a4769381a36e64d66e92cba5816c986bf?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:0vWUhCPxpJOJR5urYbZypB"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/0VOR7Ie9xUSb45fzIIVJQ1"
+								},
+								"href": "https://api.spotify.com/v1/artists/0VOR7Ie9xUSb45fzIIVJQ1",
+								"id": "0VOR7Ie9xUSb45fzIIVJQ1",
+								"name": "Hammock",
+								"type": "artist",
+								"uri": "spotify:artist:0VOR7Ie9xUSb45fzIIVJQ1"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/502gFUuFXipGm1INetZNR5"
+						},
+						"href": "https://api.spotify.com/v1/albums/502gFUuFXipGm1INetZNR5",
+						"id": "502gFUuFXipGm1INetZNR5",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273b8e644c5c6d89d9c26050e2d",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02b8e644c5c6d89d9c26050e2d",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851b8e644c5c6d89d9c26050e2d",
+								"width": 64
+							}
+						],
+						"name": "Longest Year (2020)",
+						"release_date": "2020-12-04",
+						"release_date_precision": "day",
+						"total_tracks": 6,
+						"type": "album",
+						"uri": "spotify:album:502gFUuFXipGm1INetZNR5"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/0VOR7Ie9xUSb45fzIIVJQ1"
+							},
+							"href": "https://api.spotify.com/v1/artists/0VOR7Ie9xUSb45fzIIVJQ1",
+							"id": "0VOR7Ie9xUSb45fzIIVJQ1",
+							"name": "Hammock",
+							"type": "artist",
+							"uri": "spotify:artist:0VOR7Ie9xUSb45fzIIVJQ1"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 325680,
+					"explicit": false,
+					"external_ids": { "isrc": "US7QT2000007" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/79hqdNpnWPVVxmZiDfKaIL"
+					},
+					"href": "https://api.spotify.com/v1/tracks/79hqdNpnWPVVxmZiDfKaIL",
+					"id": "79hqdNpnWPVVxmZiDfKaIL",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Dark Beyond the Blue - 2020",
+					"popularity": 41,
+					"preview_url": "https://p.scdn.co/mp3-preview/1110f50119d99bb4cb39ba09ecdbdf574bd9eac8?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 2,
+					"type": "track",
+					"uri": "spotify:track:79hqdNpnWPVVxmZiDfKaIL"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/45dkTj5sMRSjrmBSBeiHym"
+								},
+								"href": "https://api.spotify.com/v1/artists/45dkTj5sMRSjrmBSBeiHym",
+								"id": "45dkTj5sMRSjrmBSBeiHym",
+								"name": "Tate McRae",
+								"type": "artist",
+								"uri": "spotify:artist:45dkTj5sMRSjrmBSBeiHym"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/1RWiRfdNZKDe8VXzzf2VEc"
+						},
+						"href": "https://api.spotify.com/v1/albums/1RWiRfdNZKDe8VXzzf2VEc",
+						"id": "1RWiRfdNZKDe8VXzzf2VEc",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2730c2c97099fd6a637ed0aa4a4",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e020c2c97099fd6a637ed0aa4a4",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048510c2c97099fd6a637ed0aa4a4",
+								"width": 64
+							}
+						],
+						"name": "you broke me first",
+						"release_date": "2020-04-17",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:1RWiRfdNZKDe8VXzzf2VEc"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/45dkTj5sMRSjrmBSBeiHym"
+							},
+							"href": "https://api.spotify.com/v1/artists/45dkTj5sMRSjrmBSBeiHym",
+							"id": "45dkTj5sMRSjrmBSBeiHym",
+							"name": "Tate McRae",
+							"type": "artist",
+							"uri": "spotify:artist:45dkTj5sMRSjrmBSBeiHym"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 169265,
+					"explicit": false,
+					"external_ids": { "isrc": "USRC12000832" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/45bE4HXI0AwGZXfZtMp8JR"
+					},
+					"href": "https://api.spotify.com/v1/tracks/45bE4HXI0AwGZXfZtMp8JR",
+					"id": "45bE4HXI0AwGZXfZtMp8JR",
+					"is_local": false,
+					"is_playable": true,
+					"name": "you broke me first",
+					"popularity": 87,
+					"preview_url": "https://p.scdn.co/mp3-preview/b38949dd08a15c916b0ae764f74ac07b05af332b?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:45bE4HXI0AwGZXfZtMp8JR"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+								},
+								"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+								"id": "4RddZ3iHvSpGV4dvATac9X",
+								"name": "Papa Roach",
+								"type": "artist",
+								"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5RhhT00kAnesUeDbEThexo"
+						},
+						"href": "https://api.spotify.com/v1/albums/5RhhT00kAnesUeDbEThexo",
+						"id": "5RhhT00kAnesUeDbEThexo",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737de47402fa10741bd0536799",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027de47402fa10741bd0536799",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517de47402fa10741bd0536799",
+								"width": 64
+							}
+						],
+						"name": "Greatest Hits Vol.2 The Better Noise Years",
+						"release_date": "2021-03-19",
+						"release_date_precision": "day",
+						"total_tracks": 21,
+						"type": "album",
+						"uri": "spotify:album:5RhhT00kAnesUeDbEThexo"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+							},
+							"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+							"id": "4RddZ3iHvSpGV4dvATac9X",
+							"name": "Papa Roach",
+							"type": "artist",
+							"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 191073,
+					"explicit": false,
+					"external_ids": { "isrc": "USDPK2000237" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/20JXjktPIqUV7bWr8nZkia"
+					},
+					"href": "https://api.spotify.com/v1/tracks/20JXjktPIqUV7bWr8nZkia",
+					"id": "20JXjktPIqUV7bWr8nZkia",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Face Everything and Rise - Remastered 2020",
+					"popularity": 31,
+					"preview_url": "https://p.scdn.co/mp3-preview/01b607741d4a93a1dd47a5b3f8e8b667d2a24794?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 10,
+					"type": "track",
+					"uri": "spotify:track:20JXjktPIqUV7bWr8nZkia"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4npEfmQ6YuiwW1GpUmaq3F"
+								},
+								"href": "https://api.spotify.com/v1/artists/4npEfmQ6YuiwW1GpUmaq3F",
+								"id": "4npEfmQ6YuiwW1GpUmaq3F",
+								"name": "Ava Max",
+								"type": "artist",
+								"uri": "spotify:artist:4npEfmQ6YuiwW1GpUmaq3F"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/26c7MmQ4w8EAvVLb4jilaM"
+						},
+						"href": "https://api.spotify.com/v1/albums/26c7MmQ4w8EAvVLb4jilaM",
+						"id": "26c7MmQ4w8EAvVLb4jilaM",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2739a95e89d24214b94de36ccf7",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e029a95e89d24214b94de36ccf7",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048519a95e89d24214b94de36ccf7",
+								"width": 64
+							}
+						],
+						"name": "Heaven & Hell",
+						"release_date": "2020-09-18",
+						"release_date_precision": "day",
+						"total_tracks": 16,
+						"type": "album",
+						"uri": "spotify:album:26c7MmQ4w8EAvVLb4jilaM"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4npEfmQ6YuiwW1GpUmaq3F"
+							},
+							"href": "https://api.spotify.com/v1/artists/4npEfmQ6YuiwW1GpUmaq3F",
+							"id": "4npEfmQ6YuiwW1GpUmaq3F",
+							"name": "Ava Max",
+							"type": "artist",
+							"uri": "spotify:artist:4npEfmQ6YuiwW1GpUmaq3F"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 174760,
+					"explicit": false,
+					"external_ids": { "isrc": "USAT22007121" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/1KixkQVDUHggZMU9dUobgm"
+					},
+					"href": "https://api.spotify.com/v1/tracks/1KixkQVDUHggZMU9dUobgm",
+					"id": "1KixkQVDUHggZMU9dUobgm",
+					"is_local": false,
+					"is_playable": true,
+					"name": "My Head & My Heart",
+					"popularity": 85,
+					"preview_url": "https://p.scdn.co/mp3-preview/3eefa410b713b33b819fc9231f68d1f5d3d1eef0?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:1KixkQVDUHggZMU9dUobgm"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+								},
+								"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+								"id": "4RddZ3iHvSpGV4dvATac9X",
+								"name": "Papa Roach",
+								"type": "artist",
+								"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5RhhT00kAnesUeDbEThexo"
+						},
+						"href": "https://api.spotify.com/v1/albums/5RhhT00kAnesUeDbEThexo",
+						"id": "5RhhT00kAnesUeDbEThexo",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737de47402fa10741bd0536799",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027de47402fa10741bd0536799",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517de47402fa10741bd0536799",
+								"width": 64
+							}
+						],
+						"name": "Greatest Hits Vol.2 The Better Noise Years",
+						"release_date": "2021-03-19",
+						"release_date_precision": "day",
+						"total_tracks": 21,
+						"type": "album",
+						"uri": "spotify:album:5RhhT00kAnesUeDbEThexo"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+							},
+							"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+							"id": "4RddZ3iHvSpGV4dvATac9X",
+							"name": "Papa Roach",
+							"type": "artist",
+							"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 196480,
+					"explicit": false,
+					"external_ids": { "isrc": "USDPK2000234" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/7mal4BdvagTpiAh8TiDfyh"
+					},
+					"href": "https://api.spotify.com/v1/tracks/7mal4BdvagTpiAh8TiDfyh",
+					"id": "7mal4BdvagTpiAh8TiDfyh",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Who Do You Trust? - Remastered 2020",
+					"popularity": 31,
+					"preview_url": "https://p.scdn.co/mp3-preview/ddaf13976c63467e24c21d7e2884ec657a4db8cc?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 7,
+					"type": "track",
+					"uri": "spotify:track:7mal4BdvagTpiAh8TiDfyh"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/09agIJMxCD2k87ys9Al0f0"
+								},
+								"href": "https://api.spotify.com/v1/artists/09agIJMxCD2k87ys9Al0f0",
+								"id": "09agIJMxCD2k87ys9Al0f0",
+								"name": "VIZE",
+								"type": "artist",
+								"uri": "spotify:artist:09agIJMxCD2k87ys9Al0f0"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/325L7kby6bkG5qSXXAFEWM"
+								},
+								"href": "https://api.spotify.com/v1/artists/325L7kby6bkG5qSXXAFEWM",
+								"id": "325L7kby6bkG5qSXXAFEWM",
+								"name": "Joker Bra",
+								"type": "artist",
+								"uri": "spotify:artist:325L7kby6bkG5qSXXAFEWM"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/2NpPlwwDVYR5dIj0F31EcC"
+								},
+								"href": "https://api.spotify.com/v1/artists/2NpPlwwDVYR5dIj0F31EcC",
+								"id": "2NpPlwwDVYR5dIj0F31EcC",
+								"name": "Leony",
+								"type": "artist",
+								"uri": "spotify:artist:2NpPlwwDVYR5dIj0F31EcC"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/4DLcllJkrmWFrvfWHtz7zl"
+						},
+						"href": "https://api.spotify.com/v1/albums/4DLcllJkrmWFrvfWHtz7zl",
+						"id": "4DLcllJkrmWFrvfWHtz7zl",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b27380d6a1fe6f19c7223479c9c8",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e0280d6a1fe6f19c7223479c9c8",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d0000485180d6a1fe6f19c7223479c9c8",
+								"width": 64
+							}
+						],
+						"name": "Paradise",
+						"release_date": "2020-08-21",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:4DLcllJkrmWFrvfWHtz7zl"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/09agIJMxCD2k87ys9Al0f0"
+							},
+							"href": "https://api.spotify.com/v1/artists/09agIJMxCD2k87ys9Al0f0",
+							"id": "09agIJMxCD2k87ys9Al0f0",
+							"name": "VIZE",
+							"type": "artist",
+							"uri": "spotify:artist:09agIJMxCD2k87ys9Al0f0"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/325L7kby6bkG5qSXXAFEWM"
+							},
+							"href": "https://api.spotify.com/v1/artists/325L7kby6bkG5qSXXAFEWM",
+							"id": "325L7kby6bkG5qSXXAFEWM",
+							"name": "Joker Bra",
+							"type": "artist",
+							"uri": "spotify:artist:325L7kby6bkG5qSXXAFEWM"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/2NpPlwwDVYR5dIj0F31EcC"
+							},
+							"href": "https://api.spotify.com/v1/artists/2NpPlwwDVYR5dIj0F31EcC",
+							"id": "2NpPlwwDVYR5dIj0F31EcC",
+							"name": "Leony",
+							"type": "artist",
+							"uri": "spotify:artist:2NpPlwwDVYR5dIj0F31EcC"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 156000,
+					"explicit": false,
+					"external_ids": { "isrc": "DEN062004339" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/0BDQlse1DeRbOnVPY3YA5z"
+					},
+					"href": "https://api.spotify.com/v1/tracks/0BDQlse1DeRbOnVPY3YA5z",
+					"id": "0BDQlse1DeRbOnVPY3YA5z",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Paradise",
+					"popularity": 69,
+					"preview_url": "https://p.scdn.co/mp3-preview/4b49693381cba2a818ac015731a06f2001416821?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:0BDQlse1DeRbOnVPY3YA5z"
+				},
+				{
+					"album": {
+						"album_type": "compilation",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+								},
+								"href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+								"id": "0LyfQWJT6nXafLPZqxe9Of",
+								"name": "Various Artists",
+								"type": "artist",
+								"uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/3npVEOc8M13TnxoNWKAl3B"
+						},
+						"href": "https://api.spotify.com/v1/albums/3npVEOc8M13TnxoNWKAl3B",
+						"id": "3npVEOc8M13TnxoNWKAl3B",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273106ba8828237b2d83da0515b",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02106ba8828237b2d83da0515b",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851106ba8828237b2d83da0515b",
+								"width": 64
+							}
+						],
+						"name": "A State Of Trance Year Mix 2020 (Selected by Armin van Buuren)",
+						"release_date": "2020-12-11",
+						"release_date_precision": "day",
+						"total_tracks": 105,
+						"type": "album",
+						"uri": "spotify:album:3npVEOc8M13TnxoNWKAl3B"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/37kQjANSQM1tmkTwvB5M96"
+							},
+							"href": "https://api.spotify.com/v1/artists/37kQjANSQM1tmkTwvB5M96",
+							"id": "37kQjANSQM1tmkTwvB5M96",
+							"name": "Protoculture",
+							"type": "artist",
+							"uri": "spotify:artist:37kQjANSQM1tmkTwvB5M96"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 260952,
+					"explicit": false,
+					"external_ids": { "isrc": "NLF712010892" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/1pqYypFY22XexdaATKmLH0"
+					},
+					"href": "https://api.spotify.com/v1/tracks/1pqYypFY22XexdaATKmLH0",
+					"id": "1pqYypFY22XexdaATKmLH0",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Go",
+					"popularity": 23,
+					"preview_url": "https://p.scdn.co/mp3-preview/9136694293ff7542a5ab20232d0dd96cb77d0402?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 46,
+					"type": "track",
+					"uri": "spotify:track:1pqYypFY22XexdaATKmLH0"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/3tQzzidoPfVifoURnDfgmD"
+								},
+								"href": "https://api.spotify.com/v1/artists/3tQzzidoPfVifoURnDfgmD",
+								"id": "3tQzzidoPfVifoURnDfgmD",
+								"name": "t-low",
+								"type": "artist",
+								"uri": "spotify:artist:3tQzzidoPfVifoURnDfgmD"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/2RwyR6428d1hvav8d3Sto2"
+						},
+						"href": "https://api.spotify.com/v1/albums/2RwyR6428d1hvav8d3Sto2",
+						"id": "2RwyR6428d1hvav8d3Sto2",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273dda68542f373e463e506b283",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02dda68542f373e463e506b283",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851dda68542f373e463e506b283",
+								"width": 64
+							}
+						],
+						"name": "Life Changed",
+						"release_date": "2020-09-25",
+						"release_date_precision": "day",
+						"total_tracks": 4,
+						"type": "album",
+						"uri": "spotify:album:2RwyR6428d1hvav8d3Sto2"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/3tQzzidoPfVifoURnDfgmD"
+							},
+							"href": "https://api.spotify.com/v1/artists/3tQzzidoPfVifoURnDfgmD",
+							"id": "3tQzzidoPfVifoURnDfgmD",
+							"name": "t-low",
+							"type": "artist",
+							"uri": "spotify:artist:3tQzzidoPfVifoURnDfgmD"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 168003,
+					"explicit": true,
+					"external_ids": { "isrc": "NL1AP2079568" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/40mI1rlWiHarvMDtBvPnhW"
+					},
+					"href": "https://api.spotify.com/v1/tracks/40mI1rlWiHarvMDtBvPnhW",
+					"id": "40mI1rlWiHarvMDtBvPnhW",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Ordentlich",
+					"popularity": 68,
+					"preview_url": "https://p.scdn.co/mp3-preview/c5f40dc80920aa3783742be8eeaf3c771b87f073?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 3,
+					"type": "track",
+					"uri": "spotify:track:40mI1rlWiHarvMDtBvPnhW"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+								},
+								"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+								"id": "4RddZ3iHvSpGV4dvATac9X",
+								"name": "Papa Roach",
+								"type": "artist",
+								"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5RhhT00kAnesUeDbEThexo"
+						},
+						"href": "https://api.spotify.com/v1/albums/5RhhT00kAnesUeDbEThexo",
+						"id": "5RhhT00kAnesUeDbEThexo",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2737de47402fa10741bd0536799",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e027de47402fa10741bd0536799",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048517de47402fa10741bd0536799",
+								"width": 64
+							}
+						],
+						"name": "Greatest Hits Vol.2 The Better Noise Years",
+						"release_date": "2021-03-19",
+						"release_date_precision": "day",
+						"total_tracks": 21,
+						"type": "album",
+						"uri": "spotify:album:5RhhT00kAnesUeDbEThexo"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X"
+							},
+							"href": "https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X",
+							"id": "4RddZ3iHvSpGV4dvATac9X",
+							"name": "Papa Roach",
+							"type": "artist",
+							"uri": "spotify:artist:4RddZ3iHvSpGV4dvATac9X"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 203293,
+					"explicit": false,
+					"external_ids": { "isrc": "USDPK2000239" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/1WeeMb71Hld9X5Bmq9IQup"
+					},
+					"href": "https://api.spotify.com/v1/tracks/1WeeMb71Hld9X5Bmq9IQup",
+					"id": "1WeeMb71Hld9X5Bmq9IQup",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Still Swingin’ - Remastered 2020",
+					"popularity": 30,
+					"preview_url": "https://p.scdn.co/mp3-preview/579ff40da6b20abd2408740ae30832c9da5708a4?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 12,
+					"type": "track",
+					"uri": "spotify:track:1WeeMb71Hld9X5Bmq9IQup"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/3t5xRXzsuZmMDkQzgOX35S"
+								},
+								"href": "https://api.spotify.com/v1/artists/3t5xRXzsuZmMDkQzgOX35S",
+								"id": "3t5xRXzsuZmMDkQzgOX35S",
+								"name": "Robin Schulz",
+								"type": "artist",
+								"uri": "spotify:artist:3t5xRXzsuZmMDkQzgOX35S"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/5pXe6yFchq1oyYK3rq2A8i"
+								},
+								"href": "https://api.spotify.com/v1/artists/5pXe6yFchq1oyYK3rq2A8i",
+								"id": "5pXe6yFchq1oyYK3rq2A8i",
+								"name": "KIDDO",
+								"type": "artist",
+								"uri": "spotify:artist:5pXe6yFchq1oyYK3rq2A8i"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/7wzcIKvtXDWs1VA2BMHuaY"
+						},
+						"href": "https://api.spotify.com/v1/albums/7wzcIKvtXDWs1VA2BMHuaY",
+						"id": "7wzcIKvtXDWs1VA2BMHuaY",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273815f7de523fb03ff606b7943",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02815f7de523fb03ff606b7943",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851815f7de523fb03ff606b7943",
+								"width": 64
+							}
+						],
+						"name": "All We Got (feat. KIDDO)",
+						"release_date": "2020-10-16",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:7wzcIKvtXDWs1VA2BMHuaY"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/3t5xRXzsuZmMDkQzgOX35S"
+							},
+							"href": "https://api.spotify.com/v1/artists/3t5xRXzsuZmMDkQzgOX35S",
+							"id": "3t5xRXzsuZmMDkQzgOX35S",
+							"name": "Robin Schulz",
+							"type": "artist",
+							"uri": "spotify:artist:3t5xRXzsuZmMDkQzgOX35S"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/5pXe6yFchq1oyYK3rq2A8i"
+							},
+							"href": "https://api.spotify.com/v1/artists/5pXe6yFchq1oyYK3rq2A8i",
+							"id": "5pXe6yFchq1oyYK3rq2A8i",
+							"name": "KIDDO",
+							"type": "artist",
+							"uri": "spotify:artist:5pXe6yFchq1oyYK3rq2A8i"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 190218,
+					"explicit": true,
+					"external_ids": { "isrc": "DEA622000934" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/1FP9s72rDYty6mfoOEYKnE"
+					},
+					"href": "https://api.spotify.com/v1/tracks/1FP9s72rDYty6mfoOEYKnE",
+					"id": "1FP9s72rDYty6mfoOEYKnE",
+					"is_local": false,
+					"is_playable": true,
+					"name": "All We Got (feat. KIDDO)",
+					"popularity": 76,
+					"preview_url": "https://p.scdn.co/mp3-preview/86fa6e21f8dd0a60f16ec9ae88e55cf92ee32767?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:1FP9s72rDYty6mfoOEYKnE"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+								},
+								"href": "https://api.spotify.com/v1/artists/22bE4uQ6baNwSHPVcDxLCe",
+								"id": "22bE4uQ6baNwSHPVcDxLCe",
+								"name": "The Rolling Stones",
+								"type": "artist",
+								"uri": "spotify:artist:22bE4uQ6baNwSHPVcDxLCe"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5Q7oMv5dx9VinYxveFZNsn"
+						},
+						"href": "https://api.spotify.com/v1/albums/5Q7oMv5dx9VinYxveFZNsn",
+						"id": "5Q7oMv5dx9VinYxveFZNsn",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273aa4b9597399ef187074ee07b",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02aa4b9597399ef187074ee07b",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851aa4b9597399ef187074ee07b",
+								"width": 64
+							}
+						],
+						"name": "Goats Head Soup (Deluxe)",
+						"release_date": "2020-09-04",
+						"release_date_precision": "day",
+						"total_tracks": 37,
+						"type": "album",
+						"uri": "spotify:album:5Q7oMv5dx9VinYxveFZNsn"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+							},
+							"href": "https://api.spotify.com/v1/artists/22bE4uQ6baNwSHPVcDxLCe",
+							"id": "22bE4uQ6baNwSHPVcDxLCe",
+							"name": "The Rolling Stones",
+							"type": "artist",
+							"uri": "spotify:artist:22bE4uQ6baNwSHPVcDxLCe"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 238133,
+					"explicit": false,
+					"external_ids": { "isrc": "GBUM72001780" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/0RJplx8HMNZsBYmvjCsnO4"
+					},
+					"href": "https://api.spotify.com/v1/tracks/0RJplx8HMNZsBYmvjCsnO4",
+					"id": "0RJplx8HMNZsBYmvjCsnO4",
+					"is_local": false,
+					"is_playable": true,
+					"name": "100 Years Ago - 2020",
+					"popularity": 34,
+					"preview_url": null,
+					"track_number": 2,
+					"type": "track",
+					"uri": "spotify:track:0RJplx8HMNZsBYmvjCsnO4"
+				},
+				{
+					"album": {
+						"album_type": "single",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/09agIJMxCD2k87ys9Al0f0"
+								},
+								"href": "https://api.spotify.com/v1/artists/09agIJMxCD2k87ys9Al0f0",
+								"id": "09agIJMxCD2k87ys9Al0f0",
+								"name": "VIZE",
+								"type": "artist",
+								"uri": "spotify:artist:09agIJMxCD2k87ys9Al0f0"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/6Rmg5JiRphFMlhkwGNl9Fu"
+								},
+								"href": "https://api.spotify.com/v1/artists/6Rmg5JiRphFMlhkwGNl9Fu",
+								"id": "6Rmg5JiRphFMlhkwGNl9Fu",
+								"name": "Tom Gregory",
+								"type": "artist",
+								"uri": "spotify:artist:6Rmg5JiRphFMlhkwGNl9Fu"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/5qrCoCKxWEDf5y5yERNArR"
+						},
+						"href": "https://api.spotify.com/v1/albums/5qrCoCKxWEDf5y5yERNArR",
+						"id": "5qrCoCKxWEDf5y5yERNArR",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b273d7fbacc394fa53ab965e44bd",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e02d7fbacc394fa53ab965e44bd",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d00004851d7fbacc394fa53ab965e44bd",
+								"width": 64
+							}
+						],
+						"name": "Never Let Me Down",
+						"release_date": "2020-04-24",
+						"release_date_precision": "day",
+						"total_tracks": 1,
+						"type": "album",
+						"uri": "spotify:album:5qrCoCKxWEDf5y5yERNArR"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/09agIJMxCD2k87ys9Al0f0"
+							},
+							"href": "https://api.spotify.com/v1/artists/09agIJMxCD2k87ys9Al0f0",
+							"id": "09agIJMxCD2k87ys9Al0f0",
+							"name": "VIZE",
+							"type": "artist",
+							"uri": "spotify:artist:09agIJMxCD2k87ys9Al0f0"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/6Rmg5JiRphFMlhkwGNl9Fu"
+							},
+							"href": "https://api.spotify.com/v1/artists/6Rmg5JiRphFMlhkwGNl9Fu",
+							"id": "6Rmg5JiRphFMlhkwGNl9Fu",
+							"name": "Tom Gregory",
+							"type": "artist",
+							"uri": "spotify:artist:6Rmg5JiRphFMlhkwGNl9Fu"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 153148,
+					"explicit": false,
+					"external_ids": { "isrc": "DEN062003458" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/0Je3J2ml1lrnTLXXIlxrvR"
+					},
+					"href": "https://api.spotify.com/v1/tracks/0Je3J2ml1lrnTLXXIlxrvR",
+					"id": "0Je3J2ml1lrnTLXXIlxrvR",
+					"is_local": false,
+					"is_playable": true,
+					"name": "Never Let Me Down",
+					"popularity": 70,
+					"preview_url": "https://p.scdn.co/mp3-preview/64de427e60538b53856d0a9b7130061a3c37524a?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 1,
+					"type": "track",
+					"uri": "spotify:track:0Je3J2ml1lrnTLXXIlxrvR"
+				},
+				{
+					"album": {
+						"album_type": "album",
+						"artists": [
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/6fkV4LaygxybcMjo4cJLrI"
+								},
+								"href": "https://api.spotify.com/v1/artists/6fkV4LaygxybcMjo4cJLrI",
+								"id": "6fkV4LaygxybcMjo4cJLrI",
+								"name": "Andris Nelsons",
+								"type": "artist",
+								"uri": "spotify:artist:6fkV4LaygxybcMjo4cJLrI"
+							},
+							{
+								"external_urls": {
+									"spotify": "https://open.spotify.com/artist/003f4bk13c6Q3gAUXv7dGJ"
+								},
+								"href": "https://api.spotify.com/v1/artists/003f4bk13c6Q3gAUXv7dGJ",
+								"id": "003f4bk13c6Q3gAUXv7dGJ",
+								"name": "Wiener Philharmoniker",
+								"type": "artist",
+								"uri": "spotify:artist:003f4bk13c6Q3gAUXv7dGJ"
+							}
+						],
+						"external_urls": {
+							"spotify": "https://open.spotify.com/album/0y9J1ZRbq8HJBM3N0hrMX3"
+						},
+						"href": "https://api.spotify.com/v1/albums/0y9J1ZRbq8HJBM3N0hrMX3",
+						"id": "0y9J1ZRbq8HJBM3N0hrMX3",
+						"images": [
+							{
+								"height": 640,
+								"url": "https://i.scdn.co/image/ab67616d0000b2731f612ccd5fd288a967cdf89d",
+								"width": 640
+							},
+							{
+								"height": 300,
+								"url": "https://i.scdn.co/image/ab67616d00001e021f612ccd5fd288a967cdf89d",
+								"width": 300
+							},
+							{
+								"height": 64,
+								"url": "https://i.scdn.co/image/ab67616d000048511f612ccd5fd288a967cdf89d",
+								"width": 64
+							}
+						],
+						"name": "Neujahrskonzert 2020 / New Year's Concert 2020 / Concert du Nouvel An 2020",
+						"release_date": "2020-01-17",
+						"release_date_precision": "day",
+						"total_tracks": 20,
+						"type": "album",
+						"uri": "spotify:album:0y9J1ZRbq8HJBM3N0hrMX3"
+					},
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/5goS0v24Fc1ydjCKQRwtjM"
+							},
+							"href": "https://api.spotify.com/v1/artists/5goS0v24Fc1ydjCKQRwtjM",
+							"id": "5goS0v24Fc1ydjCKQRwtjM",
+							"name": "Johann Strauss II",
+							"type": "artist",
+							"uri": "spotify:artist:5goS0v24Fc1ydjCKQRwtjM"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/6fkV4LaygxybcMjo4cJLrI"
+							},
+							"href": "https://api.spotify.com/v1/artists/6fkV4LaygxybcMjo4cJLrI",
+							"id": "6fkV4LaygxybcMjo4cJLrI",
+							"name": "Andris Nelsons",
+							"type": "artist",
+							"uri": "spotify:artist:6fkV4LaygxybcMjo4cJLrI"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/003f4bk13c6Q3gAUXv7dGJ"
+							},
+							"href": "https://api.spotify.com/v1/artists/003f4bk13c6Q3gAUXv7dGJ",
+							"id": "003f4bk13c6Q3gAUXv7dGJ",
+							"name": "Wiener Philharmoniker",
+							"type": "artist",
+							"uri": "spotify:artist:003f4bk13c6Q3gAUXv7dGJ"
+						}
+					],
+					"disc_number": 1,
+					"duration_ms": 622226,
+					"explicit": false,
+					"external_ids": { "isrc": "USQX91903589" },
+					"external_urls": {
+						"spotify": "https://open.spotify.com/track/5431KRbZtVF3tVgMR1lIYS"
+					},
+					"href": "https://api.spotify.com/v1/tracks/5431KRbZtVF3tVgMR1lIYS",
+					"id": "5431KRbZtVF3tVgMR1lIYS",
+					"is_local": false,
+					"is_playable": true,
+					"name": "An der schönen blauen Donau, Walzer, Op. 314",
+					"popularity": 36,
+					"preview_url": "https://p.scdn.co/mp3-preview/277d245a8defd4904e0e46dc63e92be518a7c491?cid=29e3c172dcd04c3f8371ca93aa6844c5",
+					"track_number": 19,
+					"type": "track",
+					"uri": "spotify:track:5431KRbZtVF3tVgMR1lIYS"
+				}
+			],
+			"limit": 50,
+			"next": "https://api.spotify.com/v1/search?query=year%3A2020&type=track&market=DE&offset=50&limit=50",
+			"offset": 0,
+			"previous": null,
+			"total": 259083
+		}
+	},
+	"headers": {
+		"content-type": "application/json; charset=utf-8",
+		"cache-control": "public, max-age=7200",
+		"x-robots-tag": "noindex, nofollow",
+		"access-control-allow-origin": "*",
+		"access-control-allow-headers": "Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token",
+		"access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE, PATCH",
+		"access-control-allow-credentials": "true",
+		"access-control-max-age": "604800",
+		"content-encoding": "gzip",
+		"strict-transport-security": "max-age=31536000",
+		"x-content-type-options": "nosniff",
+		"date": "Mon, 12 Jul 2021 13:46:31 GMT",
+		"server": "envoy",
+		"via": "HTTP/2 edgeproxy, 1.1 google",
+		"alt-svc": "clear",
+		"connection": "close",
+		"transfer-encoding": "chunked"
+	},
+	"statusCode": 200
+}

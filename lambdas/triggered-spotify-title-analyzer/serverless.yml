@@ -1,0 +1,37 @@
+service: frhetorix-analyze
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  profile: frhetorix_app
+  lambdaHashingVersion: 20201221
+  timeout: 120
+  region: eu-central-1
+  iam:
+    role:
+      statements:
+        - Effect: 'Allow'
+          Action:
+            - 'secretsmanager:GetSecretValue'
+            - 's3:GetObject'
+            - 's3:GetObjectAcl'
+          Resource:
+            - 'arn:aws:secretsmanager:eu-central-1:277817539157:secret:yupieldb/frhetorix-analysis-db-user-Dv3vEw'
+            - 'arn:aws:s3:::frhetorix-raw-data/*'
+
+functions:
+  triggered-spotify-title-analyzer:
+    handler: ./src/handler.analyze
+    name: dev-triggered-spotify-title-analyzer
+    events:
+      - s3:
+          bucket: frhetorix-raw-data
+          event: s3:ObjectCreated:*
+          rules:
+            - suffix: .json
+          existing: true
+
+plugins:
+  - serverless-plugin-typescript

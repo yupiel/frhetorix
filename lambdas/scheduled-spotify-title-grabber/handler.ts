@@ -1,5 +1,5 @@
 import dateFormat from 'dateformat';
-import { APIGatewayProxyEvent } from 'aws-lambda';
+import { ScheduledEvent } from 'aws-lambda';
 import SpotifyWebApi from 'spotify-web-api-node';
 import {
 	SecretsManagerClient,
@@ -18,13 +18,13 @@ const s3Client = new S3Client({
 
 const searchYear = 2020;
 
-export const grab = async (event: APIGatewayProxyEvent) => {
+export const grab = async (event: ScheduledEvent) => {
 	console.log('Authenticating against Spotify API...');
 	const spotifySecret = await secretsManagerClient
 		.send(
 			new GetSecretValueCommand({
 				SecretId:
-					'arn:aws:secretsmanager:eu-central-1:277817539157:secret:spotify_secrets-t94O8R',
+					'arn:aws:secretsmanager:eu-central-1:277817539157:secret:frhetorix/spotify-api-YnFAVD',
 			})
 		)
 		.then((res) => res);
