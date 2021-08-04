@@ -1,0 +1,39 @@
+service: frhetorix-search
+
+frameworkVersion: '2'
+
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  profile: frhetorix_app
+  lambdaHashingVersion: 20201221
+  region: eu-central-1
+  iam:
+    role:
+      statements:
+        - Effect: 'Allow'
+          Action:
+            - 'secretsmanager:GetSecretValue'
+          Resource:
+            - 'arn:aws:secretsmanager:eu-central-1:277817539157:secret:yupieldb/frhetorix-analysis-db-user-Dv3vEw'
+
+functions:
+  frhetorix-search:
+    handler: ./src/handler.search
+    name: dev-frhetorix-search
+    events:
+      - http:
+          path: /search
+          method: GET
+          request:
+            parameters:
+              querystrings:
+                markets: false
+                months: false
+                years: false
+                languages: false
+                words: false
+
+plugins:
+  - serverless-plugin-typescript

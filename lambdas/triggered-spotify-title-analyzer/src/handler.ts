@@ -1,6 +1,4 @@
 import { Readable } from 'stream';
-import { Client } from 'pg';
-import format from 'pg-format';
 import { S3Event } from 'aws-lambda';
 import { GetObjectCommand, S3Client } from '@aws-sdk/client-s3';
 import {
@@ -8,11 +6,15 @@ import {
 	GetSecretValueCommand,
 	GetSecretValueCommandOutput,
 } from '@aws-sdk/client-secrets-manager';
+import { ModelCtor, Sequelize } from 'sequelize';
 
 import { ResponseData } from '../types/spotify-response';
 import { batchAnalyzer } from './batch-analyzer';
+import { AnalysisEntry } from '../types/database-entry';
+import AnalysisEntryModel from './model/AnalysisEntry';
 
 const AWS_REGION = 'eu-central-1';
+const ANALYSIS_DATABASE_NAME = 'postgres';
 const ANALYSIS_TABLE_NAME = 'Frhetorix_Analysis';
 
 const s3Client = new S3Client({
@@ -23,57 +25,66 @@ const secretsManagerClient = new SecretsManagerClient({
 });
 
 export const analyze = async (event: S3Event) => {
-	if (event.Records[0] === null || event.Records[0] === undefined)
-		throw new Error('S3 File did not get passed on lambda trigger');
+	let batchData: ResponseData;
 
-	const bucketName = event.Records[0].s3.bucket.name;
-	const fileKey = event.Records[0].s3.object.key;
+	try {
+		//For testing purposes this line will treat data passed locally as the finished parsed data
+		batchData = event as any as ResponseData;
 
-	const batchStream = await s3Client.send(
-		new GetObjectCommand({
-			Bucket: bucketName,
-			Key: fileKey,
-		})
-	);
+		if (typeof batchData.statusCode !== 'number') {
+			throw new Error(
+				'Parsing test batch Data failed... falling back to regular data parsing'
+			);
+		}
+	} catch (err) {
+		if (event.Records[0] === null || event.Records[0] === undefined)
+			throw new Error('S3 File did not get passed on lambda trigger');
 
-	if (batchStream.Body instanceof Readable === false)
-		throw new Error('GetObjectCommand on batch file failed');
+		const bucketName = event.Records[0].s3.bucket.name;
+		const fileKey = event.Records[0].s3.object.key;
 
-	const batchStringData = await streamToString(batchStream.Body as Readable);
-	const batchData: ResponseData = JSON.parse(batchStringData);
+		const batchStream = await s3Client.send(
+			new GetObjectCommand({
+				Bucket: bucketName,
+				Key: fileKey,
+			})
+		);
+
+		if (batchStream.Body instanceof Readable === false)
+			throw new Error('GetObjectCommand on batch file failed');
+
+		const batchStringData = await streamToString(
+			batchStream.Body as Readable
+		);
+
+		batchData = JSON.parse(batchStringData);
+	}
 
 	console.log('Fetching Database Info and Credentials...');
 	const databaseSecret = await getSecretStringValue(
 		'arn:aws:secretsmanager:eu-central-1:277817539157:secret:yupieldb/frhetorix-analysis-db-user-Dv3vEw'
 	);
 
-	console.log('Logging into Database...');
-	const postgresClient = new Client({
-		user: databaseSecret['username'],
-		host: databaseSecret['host'],
-		database: 'postgres',
-		password: databaseSecret['password'],
-		port: databaseSecret['port'],
-	});
-	await postgresClient.connect();
+	//establish database connection
+	const sequelizeClient = await establishDatabaseConnection(databaseSecret);
+
+	//create model definition
+	const analysisEntryModel: ModelCtor<AnalysisEntry> = AnalysisEntryModel(
+		sequelizeClient,
+		ANALYSIS_TABLE_NAME
+	);
 
 	console.log('Starting batch analysis...');
 	const newDataForDatabase = await batchAnalyzer(
 		batchData,
-		postgresClient,
-		ANALYSIS_TABLE_NAME
+		analysisEntryModel
 	);
 
 	console.log('Adding results to database...');
 	try {
-		await postgresClient.query(
-			format(
-				`INSERT INTO "${ANALYSIS_TABLE_NAME}" ("Market", "TrackMonth", "TrackYear", "DetectedLanguage", "TrackID", "Word", "Occurences") VALUES %L`,
-				newDataForDatabase
-			)
-		);
-	} catch (e) {
-		console.error(e);
+		await analysisEntryModel.bulkCreate(newDataForDatabase);
+	} catch (err) {
+		throw err;
 	}
 
 	console.log('Adding batch analysis to database finished.');
@@ -107,4 +118,27 @@ async function streamToString(stream: Readable): Promise<string> {
 			resolve(Buffer.concat(chunks).toString('utf-8'))
 		);
 	});
+}
+
+async function establishDatabaseConnection(
+	databaseSecretString: GetSecretValueCommandOutput
+): Promise<Sequelize> {
+	const sequelize = new Sequelize(
+		ANALYSIS_DATABASE_NAME,
+		databaseSecretString['username'],
+		databaseSecretString['password'],
+		{
+			host: databaseSecretString['host'],
+			dialect: 'postgres',
+		}
+	);
+
+	try {
+		await sequelize.authenticate();
+		console.log('Database connection has been established successfully.');
+	} catch (err) {
+		throw err;
+	}
+
+	return sequelize;
 }

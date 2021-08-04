@@ -1,7 +1,7 @@
 {
-  "name": "triggered-spotify-title-analyzer",
+  "name": "frehetorix-search",
   "version": "1.0.0",
-  "description": "Analyzes spotify api search dumps and feeds them into a prostres database",
+  "description": "Searches the Frhetorix Analysis database and returns entries based on parameters",
   "main": "handler.ts",
   "scripts": {
     "test": "jest ./src"
@@ -9,15 +9,11 @@
   "author": "Yupiel",
   "license": "MIT",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.20.0",
     "@aws-sdk/client-secrets-manager": "^3.21.0",
-    "cld": "^2.7.0",
     "dateformat": "^4.5.1",
-    "lyrics-searcher": "^1.0.42",
     "pg": "^8.6.0",
     "pg-format": "^1.0.4",
-    "sequelize": "^6.6.5",
-    "stopword": "^1.0.7"
+    "sequelize": "^6.6.5"
   },
   "devDependencies": {
     "@aws-sdk/types": "^3.20.0",
@@ -26,8 +22,6 @@
     "@types/node": "^16.0.0",
     "@types/pg": "^8.6.1",
     "@types/pg-format": "^1.0.2",
-    "@types/spotify-web-api-node": "^5.0.3",
-    "@types/stopword": "^1.0.1",
     "@typescript-eslint/eslint-plugin": "^4.28.0",
     "@typescript-eslint/parser": "^4.28.0",
     "eslint": "^7.29.0",

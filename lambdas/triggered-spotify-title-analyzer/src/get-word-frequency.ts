@@ -1,3 +1,5 @@
+import {WordsWithFrequencies} from '../types/word-with-frequency'
+
 export const getWordFrequency = (
 	inputWords: Array<string>
 ): WordsWithFrequencies => {
@@ -12,7 +14,3 @@ export const getWordFrequency = (
 
 	return frequencyMap;
 };
-
-interface WordsWithFrequencies {
-	[key: string]: number;
-}

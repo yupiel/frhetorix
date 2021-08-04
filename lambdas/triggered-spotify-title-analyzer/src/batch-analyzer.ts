@@ -1,5 +1,7 @@
 import dateFormat from 'dateformat';
-import { Client } from 'pg';
+import { ModelCtor } from 'sequelize';
+import { AnalysisInformation } from '../types/analysis-information';
+import { AnalysisEntry, AnalysisEntryAttributes } from '../types/database-entry';
 import { ResponseData, TrackSearchItem } from '../types/spotify-response';
 import { cleanupTitle } from './cleanup-title';
 import { getLanguageOfTrack } from './get-language-of-track';
@@ -7,10 +9,9 @@ import { getWordFrequency } from './get-word-frequency';
 
 export async function batchAnalyzer(
 	spotifyResponseBatch: ResponseData,
-	postgresClient: Client,
-	analysisDatabaseTableName: string
-): Promise<Array<Array<string | number | null>>> {
-	const newDatasetsToAdd: Array<Array<string | number | null>> = [];
+	analyisEntryModel: ModelCtor<AnalysisEntry>
+): Promise<Array<AnalysisEntryAttributes>> {
+	const newDatasetsToAdd: Array<AnalysisEntryAttributes> = [];
 	const marketString = getMarketFromAPICallLink(
 		spotifyResponseBatch.body.tracks.href
 	);
@@ -20,12 +21,11 @@ export async function batchAnalyzer(
 		console.log(
 			`Checking if Track ID ${itemEntry.id} exists in database already...`
 		);
-		const itemIDEntryExists = await postgresClient.query(
-			`SELECT * FROM "${analysisDatabaseTableName}" WHERE "TrackID" = $1::text`,
-			[itemEntry.id]
-		);
+		const itemIDEntryExists = await analyisEntryModel.findOne({
+			where: { TrackID: itemEntry.id },
+		});
 
-		if (itemIDEntryExists.rowCount > 0) continue;
+		if (itemIDEntryExists !== null) continue;
 
 		console.log(
 			`Track ID ${itemEntry.id} did not exist in database. Analyzing...`
@@ -37,15 +37,15 @@ export async function batchAnalyzer(
 		if (entryDataAnalysis === null) continue;
 
 		for (let analysisResult of entryDataAnalysis) {
-			newDatasetsToAdd.push([
-				marketString.toLowerCase(),
-				analysisResult.trackMonth,
-				analysisResult.trackYear,
-				analysisResult.detectedLanguage,
-				analysisResult.trackID,
-				analysisResult.word,
-				analysisResult.occurences,
-			]);
+			newDatasetsToAdd.push({
+				Market: marketString.toLowerCase(),
+				TrackMonth: analysisResult.trackMonth,
+				TrackYear: analysisResult.trackYear,
+				DetectedLanguage: analysisResult.detectedLanguage,
+				TrackID: analysisResult.trackID,
+				Word: analysisResult.word,
+				Occurences: analysisResult.occurences,
+			});
 		}
 	}
 
@@ -96,13 +96,4 @@ async function getAnalysisInformationFromEntry(
 	}
 
 	return analyzedResultSet;
-}
-
-interface AnalysisInformation {
-	trackMonth: number;
-	trackYear: number;
-	detectedLanguage: string | null;
-	trackID: string;
-	word: string;
-	occurences: number;
 }

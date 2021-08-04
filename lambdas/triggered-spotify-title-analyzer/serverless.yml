@@ -2,6 +2,7 @@ service: frhetorix-analyze
 
 frameworkVersion: '2'
 
+
 provider:
   name: aws
   runtime: nodejs14.x
