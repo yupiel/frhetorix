@@ -22,7 +22,6 @@ const secretsManagerClient = new SecretsManagerClient({
 });
 
 export const search = async (event: APIGatewayProxyEvent) => {
-	console.log(event);
 	let searchParameters: SearchParameters = fromAPIGatewayParameter(
 		event.multiValueQueryStringParameters
 	);
@@ -42,6 +41,7 @@ export const search = async (event: APIGatewayProxyEvent) => {
 	);
 
 	try {
+		console.log('Querying Database with request parameters...');
 		const queryResult = await analysisEntryModel.findAll({
 			attributes: [
 				'Word',
@@ -51,7 +51,7 @@ export const search = async (event: APIGatewayProxyEvent) => {
 				'Market',
 				[
 					Sequelize.fn('sum', Sequelize.col('Occurences')),
-					'TotalOccurences',
+					'TotalOccurrences',
 				],
 			],
 			where: createSequelizeWhereParameterAtributes(searchParameters),
@@ -64,6 +64,8 @@ export const search = async (event: APIGatewayProxyEvent) => {
 			],
 			order: ['TrackMonth', 'TrackYear'],
 		});
+
+		console.log('Query success... returning results...');
 
 		return {
 			statusCode: 200,
