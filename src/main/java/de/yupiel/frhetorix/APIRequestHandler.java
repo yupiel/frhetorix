@@ -5,24 +5,25 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.text.ParseException;
 import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class APIRequestHandler {
     private final String words;
-    private LocalDate releaseDateFrom;
+    private final LocalDate releaseDateFrom;
+    private final boolean anyReleaseDateFrom;
     private final LocalDate releaseDateTo;
+    private final boolean anyReleaseDateTo;
     private final String language;
     private final String market;
 
     private final String BASE_URL = "https://kpforcqot3.execute-api.eu-central-1.amazonaws.com/dev/search";
 
-    public APIRequestHandler(String words, LocalDate releaseDateFrom, LocalDate releaseDateTo, String language, String market){
+    public APIRequestHandler(String words, LocalDate releaseDateFrom, boolean anyReleaseDateFrom, LocalDate releaseDateTo, boolean anyReleaseDateTo, String language, String market){
         this.words = cleanupWordInput(words);
         this.releaseDateFrom = releaseDateFrom;
+        this.anyReleaseDateFrom = anyReleaseDateFrom;
         this.releaseDateTo = releaseDateTo;
+        this.anyReleaseDateTo = anyReleaseDateTo;
         this.language = getLanguageShorthand(language);
         this.market = getLanguageShorthand(market);
     }
@@ -40,10 +41,10 @@ public class APIRequestHandler {
             if (words != null && !words.equals("")) {
                 builder.addParameter("words", words);
             }
-            if(releaseDateFrom != null) {
+            if(releaseDateFrom != null && !anyReleaseDateFrom) {
                 builder.addParameter("fromdate", String.format("%s-%s", releaseDateFrom.getYear(), formatMonth(releaseDateFrom)));
             }
-            if (releaseDateTo != null){
+            if (releaseDateTo != null && !anyReleaseDateTo){
                 builder.addParameter("todate", String.format("%s-%s", releaseDateTo.getYear(), formatMonth(releaseDateTo)));
             }
             if(!language.equals("unknown") && !language.equals("Any")){

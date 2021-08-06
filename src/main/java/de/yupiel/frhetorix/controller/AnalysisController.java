@@ -5,16 +5,13 @@ import com.google.gson.JsonElement;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 import de.yupiel.frhetorix.APIRequestHandler;
-import de.yupiel.frhetorix.RequestURIBuilder;
 import de.yupiel.frhetorix.TagCloudTask;
 import de.yupiel.frhetorix.model.AnalysisEntry;
 import de.yupiel.frhetorix.model.TagWord;
 import javafx.application.Platform;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.TextArea;
+import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
@@ -22,9 +19,6 @@ import javafx.scene.text.TextFlow;
 
 import java.io.*;
 import java.lang.reflect.Type;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -39,6 +33,8 @@ public class AnalysisController {
     private final Gson gson = new Gson();
     private final Path saveStatePath = Paths.get(System.getProperty("user.home"), "Documents", "frhetorix");
     private final String saveFileName = "lastSessionResult.json";
+    private boolean fromDateEnabled = true;
+    private boolean toDateEnabled = true;
 
     @FXML
     public ComboBox<String> marketInput;
@@ -80,7 +76,9 @@ public class AnalysisController {
         languageInput.getItems().addAll("Any", "German", "English");
 
         dateInputFrom.setValue(LocalDate.now());
+        fromDateEnabled = !dateInputFrom.isDisabled();
         dateInputTo.setValue(LocalDate.now().plus(1, ChronoUnit.DAYS));
+        toDateEnabled = !dateInputTo.isDisabled();
     }
 
     @FXML
@@ -92,7 +90,9 @@ public class AnalysisController {
             APIRequestHandler requestHandler = new APIRequestHandler(
                     wordInputField.getText(),
                     dateInputFrom.getValue(),
+                    !fromDateEnabled,
                     dateInputTo.getValue(),
+                    !toDateEnabled,
                     languageInput.getValue(),
                     marketInput.getValue()
                     );
@@ -110,6 +110,17 @@ public class AnalysisController {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    @FXML
+    private void anyFromDateCheckboxClickHandler(ActionEvent event){
+        dateInputFrom.setDisable(fromDateEnabled);
+        fromDateEnabled = !fromDateEnabled;
+    }
+    @FXML
+    private void anyToDateCheckboxClickHandler(ActionEvent event){
+        dateInputTo.setDisable(toDateEnabled);
+        toDateEnabled = !toDateEnabled;
     }
 
     @FXML

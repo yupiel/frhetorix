@@ -12,7 +12,7 @@ export const fromAPIGatewayParameter = (
 	parameters: APIGatewayProxyEventMultiValueQueryStringParameters | null
 ): SearchParameters => {
 	try {
-		if (parameters === null) throw new Error('No parameters found');
+		if (parameters === null) return {} as SearchParameters;
 
 		const returnSearchParameters: SearchParameters = {} as SearchParameters;
 
@@ -86,7 +86,7 @@ export const fromAPIGatewayParameter = (
 		return returnSearchParameters;
 	} catch (err) {
 		console.error(err);
-		throw new Error('Search Parameters couldn not be parsed');
+		throw new Error('Search Parameters could not be parsed');
 	}
 };
 
