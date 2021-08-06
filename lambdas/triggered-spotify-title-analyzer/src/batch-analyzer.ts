@@ -37,6 +37,9 @@ export async function batchAnalyzer(
 		if (entryDataAnalysis === null) continue;
 
 		for (let analysisResult of entryDataAnalysis) {
+			if(analysisResult.word === 'feat')	//TODO: replace with banned words list?
+				continue;
+
 			newDatasetsToAdd.push({
 				Market: marketString.toLowerCase(),
 				TrackMonth: analysisResult.trackMonth,

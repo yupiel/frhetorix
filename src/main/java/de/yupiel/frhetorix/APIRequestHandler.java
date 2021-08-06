@@ -40,21 +40,11 @@ public class APIRequestHandler {
             if (words != null && !words.equals("")) {
                 builder.addParameter("words", words);
             }
-            if(releaseDateFrom != null && releaseDateTo != null){
-                List<Integer> months = new ArrayList<>();
-                List<Integer> years = new ArrayList<>();
-
-                while(releaseDateFrom.isBefore(releaseDateTo) || releaseDateFrom.getMonthValue() == releaseDateTo.getMonthValue()){
-                    if(!months.contains(releaseDateFrom.getMonthValue()))
-                        months.add(releaseDateFrom.getMonthValue());
-                    if(!years.contains(releaseDateFrom.getYear()))
-                        years.add(releaseDateFrom.getYear());
-
-                    releaseDateFrom = releaseDateFrom.plus(1, ChronoUnit.MONTHS);
-                }
-
-                builder.addParameter("months", months.toArray());
-                builder.addParameter("years", years.toArray());
+            if(releaseDateFrom != null) {
+                builder.addParameter("fromdate", String.format("%s-%s", releaseDateFrom.getYear(), formatMonth(releaseDateFrom)));
+            }
+            if (releaseDateTo != null){
+                builder.addParameter("todate", String.format("%s-%s", releaseDateTo.getYear(), formatMonth(releaseDateTo)));
             }
             if(!language.equals("unknown") && !language.equals("Any")){
                 builder.addParameter("languages", language);
@@ -90,5 +80,13 @@ public class APIRequestHandler {
             return "en";
         else
             return "Any";
+    }
+
+    private String formatMonth(LocalDate sourceDate){
+        String formattedMonth = String.valueOf(sourceDate.getMonthValue());
+        if(formattedMonth.length() == 1)
+            return String.format("0%s", formattedMonth);
+
+        return formattedMonth;
     }
 }
